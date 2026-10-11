@@ -1,0 +1,275 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Tue Oct  6 17:10:33 2026
+| Host         : 2927pc running 64-bit major release  (build 9200)
+| Command      : report_utilization -hierarchical -hierarchical_depth 3 -file C:/Users/ian06/Desktop/590/10_6/reports/util_hier.txt
+| Design       : vc707_top
+| Device       : xc7vx485tffg1761-2
+| Speed File   : -2
+| Design State : Physopt postRoute
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++--------------------+--------------------------+------------+------------+---------+------+--------+--------+--------+------------+
+|      Instance      |          Module          | Total LUTs | Logic LUTs | LUTRAMs | SRLs |   FFs  | RAMB36 | RAMB18 | DSP Blocks |
++--------------------+--------------------------+------------+------------+---------+------+--------+--------+--------+------------+
+| vc707_top          |                    (top) |      88662 |      85422 |    3072 |  168 | 159906 |     67 |     96 |       1536 |
+|   (vc707_top)      |                    (top) |         41 |         41 |       0 |    0 |   9683 |      0 |      0 |          0 |
+|   SM[0].u_sm       |                   sm_top |       3538 |       3403 |     128 |    7 |   6103 |      2 |      4 |         64 |
+|     (SM[0].u_sm)   |                   sm_top |         10 |         10 |       0 |    0 |    203 |      0 |      0 |          0 |
+|     u_core         |                  sm_core |       3489 |       3354 |     128 |    7 |   5494 |      2 |      4 |         64 |
+|       (u_core)     |                  sm_core |        554 |        420 |     128 |    6 |   1024 |      2 |      4 |          0 |
+|       SUBP[0].u_tc |         tensor_core_1295 |        737 |        736 |       0 |    1 |   1154 |      0 |      0 |         16 |
+|       SUBP[1].u_tc |         tensor_core_1296 |        733 |        733 |       0 |    0 |   1105 |      0 |      0 |         16 |
+|       SUBP[2].u_tc |         tensor_core_1297 |        732 |        732 |       0 |    0 |   1106 |      0 |      0 |         16 |
+|       SUBP[3].u_tc |         tensor_core_1298 |        733 |        733 |       0 |    0 |   1105 |      0 |      0 |         16 |
+|     u_en_gen       |              en_gen_1292 |         36 |         36 |       0 |    0 |    132 |      0 |      0 |          0 |
+|     u_stat         |            stat_cdc_1294 |          4 |          4 |       0 |    0 |    264 |      0 |      0 |          0 |
+|   SM[10].u_sm      |   sm_top__parameterized9 |       3534 |       3399 |     128 |    7 |   6052 |      2 |      4 |         64 |
+|     (SM[10].u_sm)  |   sm_top__parameterized9 |         10 |         10 |       0 |    0 |    203 |      0 |      0 |          0 |
+|     u_core         |  sm_core__parameterized9 |       3485 |       3350 |     128 |    7 |   5443 |      2 |      4 |         64 |
+|       (u_core)     |  sm_core__parameterized9 |        553 |        419 |     128 |    6 |   1024 |      2 |      4 |          0 |
+|       SUBP[0].u_tc |          tensor_core_791 |        736 |        735 |       0 |    1 |   1106 |      0 |      0 |         16 |
+|       SUBP[1].u_tc |          tensor_core_792 |        733 |        733 |       0 |    0 |   1104 |      0 |      0 |         16 |
+|       SUBP[2].u_tc |          tensor_core_793 |        731 |        731 |       0 |    0 |   1105 |      0 |      0 |         16 |
+|       SUBP[3].u_tc |          tensor_core_794 |        732 |        732 |       0 |    0 |   1104 |      0 |      0 |         16 |
+|     u_en_gen       |               en_gen_788 |         35 |         35 |       0 |    0 |    132 |      0 |      0 |          0 |
+|     u_stat         |             stat_cdc_790 |          4 |          4 |       0 |    0 |    264 |      0 |      0 |          0 |
+|   SM[11].u_sm      |  sm_top__parameterized10 |       3531 |       3396 |     128 |    7 |   6051 |      2 |      4 |         64 |
+|     (SM[11].u_sm)  |  sm_top__parameterized10 |         10 |         10 |       0 |    0 |    203 |      0 |      0 |          0 |
+|     u_core         | sm_core__parameterized10 |       3482 |       3347 |     128 |    7 |   5442 |      2 |      4 |         64 |
+|       (u_core)     | sm_core__parameterized10 |        554 |        420 |     128 |    6 |   1023 |      2 |      4 |          0 |
+|       SUBP[0].u_tc |          tensor_core_359 |        735 |        734 |       0 |    1 |   1105 |      0 |      0 |         16 |
+|       SUBP[1].u_tc |          tensor_core_360 |        730 |        730 |       0 |    0 |   1105 |      0 |      0 |         16 |
+|       SUBP[2].u_tc |          tensor_core_361 |        732 |        732 |       0 |    0 |   1105 |      0 |      0 |         16 |
+|       SUBP[3].u_tc |          tensor_core_362 |        731 |        731 |       0 |    0 |   1104 |      0 |      0 |         16 |
+|     u_en_gen       |               en_gen_356 |         35 |         35 |       0 |    0 |    132 |      0 |      0 |          0 |
+|     u_stat         |             stat_cdc_358 |          4 |          4 |       0 |    0 |    264 |      0 |      0 |          0 |
+|   SM[12].u_sm      |  sm_top__parameterized11 |       3535 |       3400 |     128 |    7 |   6135 |      2 |      4 |         64 |
+|     (SM[12].u_sm)  |  sm_top__parameterized11 |         10 |         10 |       0 |    0 |    203 |      0 |      0 |          0 |
+|     u_core         | sm_core__parameterized11 |       3487 |       3352 |     128 |    7 |   5526 |      2 |      4 |         64 |
+|       (u_core)     | sm_core__parameterized11 |        554 |        420 |     128 |    6 |   1023 |      2 |      4 |          0 |
+|       SUBP[0].u_tc |          tensor_core_863 |        736 |        735 |       0 |    1 |   1108 |      0 |      0 |         16 |
+|       SUBP[1].u_tc |          tensor_core_864 |        733 |        733 |       0 |    0 |   1106 |      0 |      0 |         16 |
+|       SUBP[2].u_tc |          tensor_core_865 |        732 |        732 |       0 |    0 |   1120 |      0 |      0 |         16 |
+|       SUBP[3].u_tc |          tensor_core_866 |        732 |        732 |       0 |    0 |   1169 |      0 |      0 |         16 |
+|     u_en_gen       |               en_gen_860 |         35 |         35 |       0 |    0 |    132 |      0 |      0 |          0 |
+|     u_stat         |             stat_cdc_862 |          4 |          4 |       0 |    0 |    264 |      0 |      0 |          0 |
+|   SM[13].u_sm      |  sm_top__parameterized12 |       3537 |       3402 |     128 |    7 |   6117 |      2 |      4 |         64 |
+|     (SM[13].u_sm)  |  sm_top__parameterized12 |         10 |         10 |       0 |    0 |    203 |      0 |      0 |          0 |
+|     u_core         | sm_core__parameterized12 |       3488 |       3353 |     128 |    7 |   5508 |      2 |      4 |         64 |
+|       (u_core)     | sm_core__parameterized12 |        554 |        420 |     128 |    6 |   1022 |      2 |      4 |          0 |
+|       SUBP[0].u_tc |          tensor_core_287 |        736 |        735 |       0 |    1 |   1107 |      0 |      0 |         16 |
+|       SUBP[1].u_tc |          tensor_core_288 |        733 |        733 |       0 |    0 |   1104 |      0 |      0 |         16 |
+|       SUBP[2].u_tc |          tensor_core_289 |        733 |        733 |       0 |    0 |   1121 |      0 |      0 |         16 |
+|       SUBP[3].u_tc |          tensor_core_290 |        732 |        732 |       0 |    0 |   1154 |      0 |      0 |         16 |
+|     u_en_gen       |               en_gen_284 |         35 |         35 |       0 |    0 |    132 |      0 |      0 |          0 |
+|     u_stat         |             stat_cdc_286 |          4 |          4 |       0 |    0 |    264 |      0 |      0 |          0 |
+|   SM[14].u_sm      |  sm_top__parameterized13 |       3540 |       3405 |     128 |    7 |   6083 |      2 |      4 |         64 |
+|     (SM[14].u_sm)  |  sm_top__parameterized13 |         10 |         10 |       0 |    0 |    203 |      0 |      0 |          0 |
+|     u_core         | sm_core__parameterized13 |       3490 |       3355 |     128 |    7 |   5474 |      2 |      4 |         64 |
+|       (u_core)     | sm_core__parameterized13 |        554 |        420 |     128 |    6 |   1022 |      2 |      4 |          0 |
+|       SUBP[0].u_tc |          tensor_core_215 |        737 |        736 |       0 |    1 |   1106 |      0 |      0 |         16 |
+|       SUBP[1].u_tc |          tensor_core_216 |        733 |        733 |       0 |    0 |   1106 |      0 |      0 |         16 |
+|       SUBP[2].u_tc |          tensor_core_217 |        733 |        733 |       0 |    0 |   1120 |      0 |      0 |         16 |
+|       SUBP[3].u_tc |          tensor_core_218 |        733 |        733 |       0 |    0 |   1120 |      0 |      0 |         16 |
+|     u_en_gen       |               en_gen_212 |         35 |         35 |       0 |    0 |    132 |      0 |      0 |          0 |
+|     u_stat         |             stat_cdc_214 |          4 |          4 |       0 |    0 |    264 |      0 |      0 |          0 |
+|   SM[15].u_sm      |  sm_top__parameterized14 |       3539 |       3404 |     128 |    7 |   6196 |      2 |      4 |         64 |
+|     (SM[15].u_sm)  |  sm_top__parameterized14 |         10 |         10 |       0 |    0 |    203 |      0 |      0 |          0 |
+|     u_core         | sm_core__parameterized14 |       3489 |       3354 |     128 |    7 |   5587 |      2 |      4 |         64 |
+|       (u_core)     | sm_core__parameterized14 |        554 |        420 |     128 |    6 |   1022 |      2 |      4 |          0 |
+|       SUBP[0].u_tc |          tensor_core_503 |        737 |        736 |       0 |    1 |   1106 |      0 |      0 |         16 |
+|       SUBP[1].u_tc |          tensor_core_504 |        733 |        733 |       0 |    0 |   1105 |      0 |      0 |         16 |
+|       SUBP[2].u_tc |          tensor_core_505 |        732 |        732 |       0 |    0 |   1153 |      0 |      0 |         16 |
+|       SUBP[3].u_tc |          tensor_core_506 |        733 |        733 |       0 |    0 |   1201 |      0 |      0 |         16 |
+|     u_en_gen       |               en_gen_500 |         35 |         35 |       0 |    0 |    132 |      0 |      0 |          0 |
+|     u_stat         |             stat_cdc_502 |          4 |          4 |       0 |    0 |    264 |      0 |      0 |          0 |
+|   SM[16].u_sm      |  sm_top__parameterized15 |       3540 |       3405 |     128 |    7 |   6182 |      2 |      4 |         64 |
+|     (SM[16].u_sm)  |  sm_top__parameterized15 |         10 |         10 |       0 |    0 |    203 |      0 |      0 |          0 |
+|     u_core         | sm_core__parameterized15 |       3491 |       3356 |     128 |    7 |   5573 |      2 |      4 |         64 |
+|       (u_core)     | sm_core__parameterized15 |        556 |        422 |     128 |    6 |   1023 |      2 |      4 |          0 |
+|       SUBP[0].u_tc |          tensor_core_719 |        737 |        736 |       0 |    1 |   1123 |      0 |      0 |         16 |
+|       SUBP[1].u_tc |          tensor_core_720 |        732 |        732 |       0 |    0 |   1104 |      0 |      0 |         16 |
+|       SUBP[2].u_tc |          tensor_core_721 |        733 |        733 |       0 |    0 |   1105 |      0 |      0 |         16 |
+|       SUBP[3].u_tc |          tensor_core_722 |        733 |        733 |       0 |    0 |   1218 |      0 |      0 |         16 |
+|     u_en_gen       |               en_gen_716 |         35 |         35 |       0 |    0 |    132 |      0 |      0 |          0 |
+|     u_stat         |             stat_cdc_718 |          4 |          4 |       0 |    0 |    264 |      0 |      0 |          0 |
+|   SM[17].u_sm      |  sm_top__parameterized16 |       3538 |       3403 |     128 |    7 |   6166 |      2 |      4 |         64 |
+|     (SM[17].u_sm)  |  sm_top__parameterized16 |         10 |         10 |       0 |    0 |    203 |      0 |      0 |          0 |
+|     u_core         | sm_core__parameterized16 |       3487 |       3352 |     128 |    7 |   5557 |      2 |      4 |         64 |
+|       (u_core)     | sm_core__parameterized16 |        555 |        421 |     128 |    6 |   1023 |      2 |      4 |          0 |
+|       SUBP[0].u_tc |          tensor_core_143 |        735 |        734 |       0 |    1 |   1203 |      0 |      0 |         16 |
+|       SUBP[1].u_tc |          tensor_core_144 |        732 |        732 |       0 |    0 |   1105 |      0 |      0 |         16 |
+|       SUBP[2].u_tc |          tensor_core_145 |        733 |        733 |       0 |    0 |   1105 |      0 |      0 |         16 |
+|       SUBP[3].u_tc |          tensor_core_146 |        732 |        732 |       0 |    0 |   1121 |      0 |      0 |         16 |
+|     u_en_gen       |               en_gen_140 |         35 |         35 |       0 |    0 |    132 |      0 |      0 |          0 |
+|     u_stat         |             stat_cdc_142 |          4 |          4 |       0 |    0 |    264 |      0 |      0 |          0 |
+|   SM[18].u_sm      |  sm_top__parameterized17 |       3539 |       3404 |     128 |    7 |   6052 |      2 |      4 |         64 |
+|     (SM[18].u_sm)  |  sm_top__parameterized17 |         10 |         10 |       0 |    0 |    203 |      0 |      0 |          0 |
+|     u_core         | sm_core__parameterized17 |       3489 |       3354 |     128 |    7 |   5443 |      2 |      4 |         64 |
+|       (u_core)     | sm_core__parameterized17 |        554 |        420 |     128 |    6 |   1023 |      2 |      4 |          0 |
+|       SUBP[0].u_tc |         tensor_core_1583 |        737 |        736 |       0 |    1 |   1106 |      0 |      0 |         16 |
+|       SUBP[1].u_tc |         tensor_core_1584 |        733 |        733 |       0 |    0 |   1104 |      0 |      0 |         16 |
+|       SUBP[2].u_tc |         tensor_core_1585 |        733 |        733 |       0 |    0 |   1105 |      0 |      0 |         16 |
+|       SUBP[3].u_tc |         tensor_core_1586 |        732 |        732 |       0 |    0 |   1105 |      0 |      0 |         16 |
+|     u_en_gen       |              en_gen_1580 |         35 |         35 |       0 |    0 |    132 |      0 |      0 |          0 |
+|     u_stat         |            stat_cdc_1582 |          4 |          4 |       0 |    0 |    264 |      0 |      0 |          0 |
+|   SM[19].u_sm      |  sm_top__parameterized18 |       3530 |       3395 |     128 |    7 |   6053 |      2 |      4 |         64 |
+|     (SM[19].u_sm)  |  sm_top__parameterized18 |         10 |         10 |       0 |    0 |    203 |      0 |      0 |          0 |
+|     u_core         | sm_core__parameterized18 |       3481 |       3346 |     128 |    7 |   5444 |      2 |      4 |         64 |
+|       (u_core)     | sm_core__parameterized18 |        552 |        418 |     128 |    6 |   1024 |      2 |      4 |          0 |
+|       SUBP[0].u_tc |              tensor_core |        737 |        736 |       0 |    1 |   1106 |      0 |      0 |         16 |
+|       SUBP[1].u_tc |            tensor_core_1 |        733 |        733 |       0 |    0 |   1104 |      0 |      0 |         16 |
+|       SUBP[2].u_tc |            tensor_core_2 |        730 |        730 |       0 |    0 |   1105 |      0 |      0 |         16 |
+|       SUBP[3].u_tc |            tensor_core_3 |        730 |        730 |       0 |    0 |   1105 |      0 |      0 |         16 |
+|     u_en_gen       |                   en_gen |         35 |         35 |       0 |    0 |    132 |      0 |      0 |          0 |
+|     u_stat         |                 stat_cdc |          4 |          4 |       0 |    0 |    264 |      0 |      0 |          0 |
+|   SM[1].u_sm       |   sm_top__parameterized0 |       3531 |       3396 |     128 |    7 |   6116 |      2 |      4 |         64 |
+|     (SM[1].u_sm)   |   sm_top__parameterized0 |         10 |         10 |       0 |    0 |    203 |      0 |      0 |          0 |
+|     u_core         |  sm_core__parameterized0 |       3483 |       3348 |     128 |    7 |   5507 |      2 |      4 |         64 |
+|       (u_core)     |  sm_core__parameterized0 |        554 |        420 |     128 |    6 |   1023 |      2 |      4 |          0 |
+|       SUBP[0].u_tc |         tensor_core_1151 |        735 |        734 |       0 |    1 |   1107 |      0 |      0 |         16 |
+|       SUBP[1].u_tc |         tensor_core_1152 |        731 |        731 |       0 |    0 |   1105 |      0 |      0 |         16 |
+|       SUBP[2].u_tc |         tensor_core_1153 |        733 |        733 |       0 |    0 |   1104 |      0 |      0 |         16 |
+|       SUBP[3].u_tc |         tensor_core_1154 |        730 |        730 |       0 |    0 |   1168 |      0 |      0 |         16 |
+|     u_en_gen       |              en_gen_1148 |         35 |         35 |       0 |    0 |    132 |      0 |      0 |          0 |
+|     u_stat         |            stat_cdc_1150 |          4 |          4 |       0 |    0 |    264 |      0 |      0 |          0 |
+|   SM[20].u_sm      |  sm_top__parameterized19 |       3536 |       3401 |     128 |    7 |   6052 |      2 |      4 |         64 |
+|     (SM[20].u_sm)  |  sm_top__parameterized19 |         10 |         10 |       0 |    0 |    203 |      0 |      0 |          0 |
+|     u_core         | sm_core__parameterized19 |       3487 |       3352 |     128 |    7 |   5443 |      2 |      4 |         64 |
+|       (u_core)     | sm_core__parameterized19 |        554 |        420 |     128 |    6 |   1023 |      2 |      4 |          0 |
+|       SUBP[0].u_tc |           tensor_core_71 |        737 |        736 |       0 |    1 |   1107 |      0 |      0 |         16 |
+|       SUBP[1].u_tc |           tensor_core_72 |        732 |        732 |       0 |    0 |   1105 |      0 |      0 |         16 |
+|       SUBP[2].u_tc |           tensor_core_73 |        733 |        733 |       0 |    0 |   1104 |      0 |      0 |         16 |
+|       SUBP[3].u_tc |           tensor_core_74 |        731 |        731 |       0 |    0 |   1104 |      0 |      0 |         16 |
+|     u_en_gen       |                en_gen_68 |         35 |         35 |       0 |    0 |    132 |      0 |      0 |          0 |
+|     u_stat         |              stat_cdc_70 |          4 |          4 |       0 |    0 |    264 |      0 |      0 |          0 |
+|   SM[21].u_sm      |  sm_top__parameterized20 |       3534 |       3399 |     128 |    7 |   6056 |      2 |      4 |         64 |
+|     (SM[21].u_sm)  |  sm_top__parameterized20 |         10 |         10 |       0 |    0 |    203 |      0 |      0 |          0 |
+|     u_core         | sm_core__parameterized20 |       3485 |       3350 |     128 |    7 |   5447 |      2 |      4 |         64 |
+|       (u_core)     | sm_core__parameterized20 |        554 |        420 |     128 |    6 |   1025 |      2 |      4 |          0 |
+|       SUBP[0].u_tc |          tensor_core_647 |        736 |        735 |       0 |    1 |   1107 |      0 |      0 |         16 |
+|       SUBP[1].u_tc |          tensor_core_648 |        733 |        733 |       0 |    0 |   1104 |      0 |      0 |         16 |
+|       SUBP[2].u_tc |          tensor_core_649 |        732 |        732 |       0 |    0 |   1105 |      0 |      0 |         16 |
+|       SUBP[3].u_tc |          tensor_core_650 |        730 |        730 |       0 |    0 |   1106 |      0 |      0 |         16 |
+|     u_en_gen       |               en_gen_644 |         35 |         35 |       0 |    0 |    132 |      0 |      0 |          0 |
+|     u_stat         |             stat_cdc_646 |          4 |          4 |       0 |    0 |    264 |      0 |      0 |          0 |
+|   SM[22].u_sm      |  sm_top__parameterized21 |       3539 |       3404 |     128 |    7 |   6052 |      2 |      4 |         64 |
+|     (SM[22].u_sm)  |  sm_top__parameterized21 |         10 |         10 |       0 |    0 |    203 |      0 |      0 |          0 |
+|     u_core         | sm_core__parameterized21 |       3489 |       3354 |     128 |    7 |   5443 |      2 |      4 |         64 |
+|       (u_core)     | sm_core__parameterized21 |        554 |        420 |     128 |    6 |   1022 |      2 |      4 |          0 |
+|       SUBP[0].u_tc |          tensor_core_575 |        737 |        736 |       0 |    1 |   1108 |      0 |      0 |         16 |
+|       SUBP[1].u_tc |          tensor_core_576 |        733 |        733 |       0 |    0 |   1105 |      0 |      0 |         16 |
+|       SUBP[2].u_tc |          tensor_core_577 |        732 |        732 |       0 |    0 |   1104 |      0 |      0 |         16 |
+|       SUBP[3].u_tc |          tensor_core_578 |        733 |        733 |       0 |    0 |   1104 |      0 |      0 |         16 |
+|     u_en_gen       |               en_gen_572 |         35 |         35 |       0 |    0 |    132 |      0 |      0 |          0 |
+|     u_stat         |             stat_cdc_574 |          4 |          4 |       0 |    0 |    264 |      0 |      0 |          0 |
+|   SM[23].u_sm      |  sm_top__parameterized22 |       3538 |       3403 |     128 |    7 |   6050 |      2 |      4 |         64 |
+|     (SM[23].u_sm)  |  sm_top__parameterized22 |         10 |         10 |       0 |    0 |    203 |      0 |      0 |          0 |
+|     u_core         | sm_core__parameterized22 |       3489 |       3354 |     128 |    7 |   5441 |      2 |      4 |         64 |
+|       (u_core)     | sm_core__parameterized22 |        554 |        420 |     128 |    6 |   1022 |      2 |      4 |          0 |
+|       SUBP[0].u_tc |         tensor_core_1367 |        737 |        736 |       0 |    1 |   1106 |      0 |      0 |         16 |
+|       SUBP[1].u_tc |         tensor_core_1368 |        733 |        733 |       0 |    0 |   1105 |      0 |      0 |         16 |
+|       SUBP[2].u_tc |         tensor_core_1369 |        732 |        732 |       0 |    0 |   1104 |      0 |      0 |         16 |
+|       SUBP[3].u_tc |         tensor_core_1370 |        733 |        733 |       0 |    0 |   1104 |      0 |      0 |         16 |
+|     u_en_gen       |              en_gen_1364 |         37 |         37 |       0 |    0 |    132 |      0 |      0 |          0 |
+|     u_stat         |            stat_cdc_1366 |          4 |          4 |       0 |    0 |    264 |      0 |      0 |          0 |
+|   SM[2].u_sm       |   sm_top__parameterized1 |       3534 |       3399 |     128 |    7 |   6053 |      2 |      4 |         64 |
+|     (SM[2].u_sm)   |   sm_top__parameterized1 |         10 |         10 |       0 |    0 |    203 |      0 |      0 |          0 |
+|     u_core         |  sm_core__parameterized1 |       3485 |       3350 |     128 |    7 |   5444 |      2 |      4 |         64 |
+|       (u_core)     |  sm_core__parameterized1 |        555 |        421 |     128 |    6 |   1023 |      2 |      4 |          0 |
+|       SUBP[0].u_tc |         tensor_core_1223 |        734 |        733 |       0 |    1 |   1108 |      0 |      0 |         16 |
+|       SUBP[1].u_tc |         tensor_core_1224 |        732 |        732 |       0 |    0 |   1105 |      0 |      0 |         16 |
+|       SUBP[2].u_tc |         tensor_core_1225 |        732 |        732 |       0 |    0 |   1104 |      0 |      0 |         16 |
+|       SUBP[3].u_tc |         tensor_core_1226 |        732 |        732 |       0 |    0 |   1104 |      0 |      0 |         16 |
+|     u_en_gen       |              en_gen_1220 |         35 |         35 |       0 |    0 |    132 |      0 |      0 |          0 |
+|     u_stat         |            stat_cdc_1222 |          4 |          4 |       0 |    0 |    264 |      0 |      0 |          0 |
+|   SM[3].u_sm       |   sm_top__parameterized2 |       3536 |       3401 |     128 |    7 |   6166 |      2 |      4 |         64 |
+|     (SM[3].u_sm)   |   sm_top__parameterized2 |         10 |         10 |       0 |    0 |    203 |      0 |      0 |          0 |
+|     u_core         |  sm_core__parameterized2 |       3486 |       3351 |     128 |    7 |   5557 |      2 |      4 |         64 |
+|       (u_core)     |  sm_core__parameterized2 |        553 |        419 |     128 |    6 |   1024 |      2 |      4 |          0 |
+|       SUBP[0].u_tc |         tensor_core_1079 |        735 |        734 |       0 |    1 |   1108 |      0 |      0 |         16 |
+|       SUBP[1].u_tc |         tensor_core_1080 |        732 |        732 |       0 |    0 |   1104 |      0 |      0 |         16 |
+|       SUBP[2].u_tc |         tensor_core_1081 |        733 |        733 |       0 |    0 |   1169 |      0 |      0 |         16 |
+|       SUBP[3].u_tc |         tensor_core_1082 |        733 |        733 |       0 |    0 |   1152 |      0 |      0 |         16 |
+|     u_en_gen       |              en_gen_1076 |         36 |         36 |       0 |    0 |    132 |      0 |      0 |          0 |
+|     u_stat         |            stat_cdc_1078 |          4 |          4 |       0 |    0 |    264 |      0 |      0 |          0 |
+|   SM[4].u_sm       |   sm_top__parameterized3 |       3539 |       3404 |     128 |    7 |   6120 |      2 |      4 |         64 |
+|     (SM[4].u_sm)   |   sm_top__parameterized3 |         10 |         10 |       0 |    0 |    203 |      0 |      0 |          0 |
+|     u_core         |  sm_core__parameterized3 |       3487 |       3352 |     128 |    7 |   5511 |      2 |      4 |         64 |
+|       (u_core)     |  sm_core__parameterized3 |        554 |        420 |     128 |    6 |   1024 |      2 |      4 |          0 |
+|       SUBP[0].u_tc |          tensor_core_935 |        735 |        734 |       0 |    1 |   1108 |      0 |      0 |         16 |
+|       SUBP[1].u_tc |          tensor_core_936 |        733 |        733 |       0 |    0 |   1106 |      0 |      0 |         16 |
+|       SUBP[2].u_tc |          tensor_core_937 |        733 |        733 |       0 |    0 |   1136 |      0 |      0 |         16 |
+|       SUBP[3].u_tc |          tensor_core_938 |        732 |        732 |       0 |    0 |   1137 |      0 |      0 |         16 |
+|     u_en_gen       |               en_gen_932 |         38 |         38 |       0 |    0 |    132 |      0 |      0 |          0 |
+|     u_stat         |             stat_cdc_934 |          4 |          4 |       0 |    0 |    264 |      0 |      0 |          0 |
+|   SM[5].u_sm       |   sm_top__parameterized4 |       3533 |       3398 |     128 |    7 |   6118 |      2 |      4 |         64 |
+|     (SM[5].u_sm)   |   sm_top__parameterized4 |         10 |         10 |       0 |    0 |    203 |      0 |      0 |          0 |
+|     u_core         |  sm_core__parameterized4 |       3485 |       3350 |     128 |    7 |   5509 |      2 |      4 |         64 |
+|       (u_core)     |  sm_core__parameterized4 |        554 |        420 |     128 |    6 |   1024 |      2 |      4 |          0 |
+|       SUBP[0].u_tc |         tensor_core_1439 |        736 |        735 |       0 |    1 |   1155 |      0 |      0 |         16 |
+|       SUBP[1].u_tc |         tensor_core_1440 |        730 |        730 |       0 |    0 |   1105 |      0 |      0 |         16 |
+|       SUBP[2].u_tc |         tensor_core_1441 |        733 |        733 |       0 |    0 |   1105 |      0 |      0 |         16 |
+|       SUBP[3].u_tc |         tensor_core_1442 |        732 |        732 |       0 |    0 |   1120 |      0 |      0 |         16 |
+|     u_en_gen       |              en_gen_1436 |         35 |         35 |       0 |    0 |    132 |      0 |      0 |          0 |
+|     u_stat         |            stat_cdc_1438 |          4 |          4 |       0 |    0 |    264 |      0 |      0 |          0 |
+|   SM[6].u_sm       |   sm_top__parameterized5 |       3538 |       3403 |     128 |    7 |   6051 |      2 |      4 |         64 |
+|     (SM[6].u_sm)   |   sm_top__parameterized5 |         10 |         10 |       0 |    0 |    203 |      0 |      0 |          0 |
+|     u_core         |  sm_core__parameterized5 |       3489 |       3354 |     128 |    7 |   5442 |      2 |      4 |         64 |
+|       (u_core)     |  sm_core__parameterized5 |        554 |        420 |     128 |    6 |   1023 |      2 |      4 |          0 |
+|       SUBP[0].u_tc |         tensor_core_1655 |        737 |        736 |       0 |    1 |   1107 |      0 |      0 |         16 |
+|       SUBP[1].u_tc |         tensor_core_1656 |        732 |        732 |       0 |    0 |   1104 |      0 |      0 |         16 |
+|       SUBP[2].u_tc |         tensor_core_1657 |        733 |        733 |       0 |    0 |   1104 |      0 |      0 |         16 |
+|       SUBP[3].u_tc |         tensor_core_1658 |        733 |        733 |       0 |    0 |   1104 |      0 |      0 |         16 |
+|     u_en_gen       |              en_gen_1652 |         35 |         35 |       0 |    0 |    132 |      0 |      0 |          0 |
+|     u_stat         |            stat_cdc_1654 |          4 |          4 |       0 |    0 |    264 |      0 |      0 |          0 |
+|   SM[7].u_sm       |   sm_top__parameterized6 |       3541 |       3406 |     128 |    7 |   6051 |      2 |      4 |         64 |
+|     (SM[7].u_sm)   |   sm_top__parameterized6 |         10 |         10 |       0 |    0 |    203 |      0 |      0 |          0 |
+|     u_core         |  sm_core__parameterized6 |       3491 |       3356 |     128 |    7 |   5442 |      2 |      4 |         64 |
+|       (u_core)     |  sm_core__parameterized6 |        555 |        421 |     128 |    6 |   1022 |      2 |      4 |          0 |
+|       SUBP[0].u_tc |         tensor_core_1007 |        737 |        736 |       0 |    1 |   1106 |      0 |      0 |         16 |
+|       SUBP[1].u_tc |         tensor_core_1008 |        733 |        733 |       0 |    0 |   1105 |      0 |      0 |         16 |
+|       SUBP[2].u_tc |         tensor_core_1009 |        733 |        733 |       0 |    0 |   1104 |      0 |      0 |         16 |
+|       SUBP[3].u_tc |         tensor_core_1010 |        733 |        733 |       0 |    0 |   1105 |      0 |      0 |         16 |
+|     u_en_gen       |              en_gen_1004 |         35 |         35 |       0 |    0 |    132 |      0 |      0 |          0 |
+|     u_stat         |            stat_cdc_1006 |          4 |          4 |       0 |    0 |    264 |      0 |      0 |          0 |
+|   SM[8].u_sm       |   sm_top__parameterized7 |       3532 |       3397 |     128 |    7 |   6051 |      2 |      4 |         64 |
+|     (SM[8].u_sm)   |   sm_top__parameterized7 |         10 |         10 |       0 |    0 |    203 |      0 |      0 |          0 |
+|     u_core         |  sm_core__parameterized7 |       3483 |       3348 |     128 |    7 |   5442 |      2 |      4 |         64 |
+|       (u_core)     |  sm_core__parameterized7 |        555 |        421 |     128 |    6 |   1022 |      2 |      4 |          0 |
+|       SUBP[0].u_tc |          tensor_core_431 |        734 |        733 |       0 |    1 |   1107 |      0 |      0 |         16 |
+|       SUBP[1].u_tc |          tensor_core_432 |        731 |        731 |       0 |    0 |   1105 |      0 |      0 |         16 |
+|       SUBP[2].u_tc |          tensor_core_433 |        732 |        732 |       0 |    0 |   1104 |      0 |      0 |         16 |
+|       SUBP[3].u_tc |          tensor_core_434 |        731 |        731 |       0 |    0 |   1104 |      0 |      0 |         16 |
+|     u_en_gen       |               en_gen_428 |         35 |         35 |       0 |    0 |    132 |      0 |      0 |          0 |
+|     u_stat         |             stat_cdc_430 |          4 |          4 |       0 |    0 |    264 |      0 |      0 |          0 |
+|   SM[9].u_sm       |   sm_top__parameterized8 |       3536 |       3401 |     128 |    7 |   6052 |      2 |      4 |         64 |
+|     (SM[9].u_sm)   |   sm_top__parameterized8 |         10 |         10 |       0 |    0 |    203 |      0 |      0 |          0 |
+|     u_core         |  sm_core__parameterized8 |       3486 |       3351 |     128 |    7 |   5443 |      2 |      4 |         64 |
+|       (u_core)     |  sm_core__parameterized8 |        554 |        420 |     128 |    6 |   1023 |      2 |      4 |          0 |
+|       SUBP[0].u_tc |         tensor_core_1511 |        735 |        734 |       0 |    1 |   1106 |      0 |      0 |         16 |
+|       SUBP[1].u_tc |         tensor_core_1512 |        732 |        732 |       0 |    0 |   1104 |      0 |      0 |         16 |
+|       SUBP[2].u_tc |         tensor_core_1513 |        733 |        733 |       0 |    0 |   1105 |      0 |      0 |         16 |
+|       SUBP[3].u_tc |         tensor_core_1514 |        732 |        732 |       0 |    0 |   1105 |      0 |      0 |         16 |
+|     u_en_gen       |              en_gen_1508 |         35 |         35 |       0 |    0 |    132 |      0 |      0 |          0 |
+|     u_stat         |            stat_cdc_1510 |          4 |          4 |       0 |    0 |    264 |      0 |      0 |          0 |
+|   u_clk_ctrl       |                 clk_ctrl |        516 |        516 |       0 |    0 |    362 |      0 |      0 |          0 |
+|   u_host_if        |                  host_if |       2117 |       2117 |       0 |    0 |   1515 |      0 |      0 |          0 |
+|     (u_host_if)    |                  host_if |       2010 |       2010 |       0 |    0 |   1459 |      0 |      0 |          0 |
+|     u_uart         |                     uart |        108 |        108 |       0 |    0 |     56 |      0 |      0 |          0 |
+|   u_win_ctrl       |                 win_ctrl |        905 |        905 |       0 |    0 |   1040 |     19 |      0 |          0 |
++--------------------+--------------------------+------------+------------+---------+------+--------+--------+--------+------------+
+* Note: The sum of lower-level cells may be larger than their parent cells total, due to cross-hierarchy LUT combining
+
+

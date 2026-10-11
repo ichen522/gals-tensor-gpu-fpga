@@ -1,0 +1,30 @@
+# Vivado project: rebuild with scripts/create_project.tcl
+vivado/
+.Xil/
+*.jou
+*.log
+*.str
+*.dcp
+*.bit
+*.ltx
+webtalk*
+
+# Simulation outputs (scripts/run_sims.py)
+tb_out/
+*.vvp
+*.vcd
+*.fst
+
+# Python
+__pycache__/
+*.pyc
+
+# Raw board measurement logs (kept locally)
+*.csv
+
+# Separate ASIC flow for the tensor core (not part of this repo)
+syn_tensor_core*.tcl
+pnr_*.tcl
+
+# Local notes (not published)
+notes_zh.md

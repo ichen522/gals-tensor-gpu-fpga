@@ -1,0 +1,824 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Tue Oct  6 17:10:03 2026
+| Host         : 2927pc running 64-bit major release  (build 9200)
+| Command      : report_timing -max_paths 300 -nworst 1 -unique_pins -sort_by slack -path_type summary -file C:/Users/ian06/Desktop/590/10_6/reports/worst_paths_summary.txt
+| Design       : vc707_top
+| Device       : 7vx485t-ffg1761
+| Speed File   : -2  PRODUCTION 1.12 2014-09-11
+| Design State : Physopt postRoute
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Startpoint                     Endpoint                       Slack(ns)     
+----------------------------------------------------------------------------
+SM[22].u_sm/u_core/kk_reg[4]/C SM[22].u_sm/u_core/kk_reg[6]/R 0.019         
+SM[22].u_sm/u_core/kk_reg[4]/C SM[22].u_sm/u_core/kk_reg[7]/R 0.019         
+SM[22].u_sm/u_core/kk_reg[4]/C SM[22].u_sm/u_core/kk_reg[8]/R 0.019         
+SM[22].u_sm/u_core/kk_reg[4]/C SM[22].u_sm/u_core/kk_reg[9]/R 0.019         
+SM[9].u_sm/u_core/k_m1_reg[3]/C
+                               SM[9].u_sm/u_core/kk_reg[8]/R  0.026         
+SM[9].u_sm/u_core/k_m1_reg[3]/C
+                               SM[9].u_sm/u_core/kk_reg[9]/R  0.026         
+SM[20].u_sm/u_core/SUBP[3].u_tc/ROW[1].f7_reg/C
+                               SM[20].u_sm/u_core/SUBP[3].u_tc/ROW[1].COL[0].u_mac/p_r_reg/OPMODE[4]
+                                                              0.042         
+SM[11].u_sm/u_core/kk_reg[1]/C SM[11].u_sm/u_core/kk_reg[0]/R 0.043         
+SM[11].u_sm/u_core/kk_reg[1]/C SM[11].u_sm/u_core/kk_reg[3]/R 0.043         
+SM[11].u_sm/u_core/kk_reg[1]/C SM[11].u_sm/u_core/kk_reg[4]/R 0.043         
+SM[11].u_sm/u_core/kk_reg[1]/C SM[11].u_sm/u_core/kk_reg[5]/R 0.043         
+SM[11].u_sm/u_core/kk_reg[1]/C SM[11].u_sm/u_core/kk_reg[8]/R 0.043         
+SM[11].u_sm/u_core/kk_reg[1]/C SM[11].u_sm/u_core/kk_reg[9]/R 0.043         
+SM[5].u_sm/u_core/SUBP[2].u_tc/ROW[0].f7_reg/C
+                               SM[5].u_sm/u_core/SUBP[2].u_tc/ROW[0].COL[6].u_mac/p_r_reg/OPMODE[4]
+                                                              0.047         
+SM[5].u_sm/u_core/SUBP[2].u_tc/ROW[0].f7_reg/C
+                               SM[5].u_sm/u_core/SUBP[2].u_tc/ROW[0].COL[7].u_mac/p_r_reg/OPMODE[4]
+                                                              0.049         
+SM[3].u_sm/u_core/SUBP[0].u_tc/ROW[1].f7_reg_replica/C
+                               SM[3].u_sm/u_core/SUBP[0].u_tc/ROW[1].COL[1].u_mac/p_r_reg/OPMODE[4]
+                                                              0.057         
+SM[22].u_sm/u_core/SUBP[3].u_tc/ROW[0].f7_reg/C
+                               SM[22].u_sm/u_core/SUBP[3].u_tc/ROW[0].COL[6].u_mac/p_r_reg/OPMODE[4]
+                                                              0.060         
+SM[17].u_sm/u_core/SUBP[1].u_tc/ROW[0].f7_reg_replica/C
+                               SM[17].u_sm/u_core/SUBP[1].u_tc/ROW[0].COL[3].u_mac/p_r_reg/OPMODE[4]
+                                                              0.061         
+SM[14].u_sm/u_core/SUBP[0].u_tc/ROW[1].f7_reg/C
+                               SM[14].u_sm/u_core/SUBP[0].u_tc/ROW[1].COL[3].u_mac/p_r_reg/OPMODE[4]
+                                                              0.063         
+SM[2].u_sm/u_core/SUBP[1].u_tc/ROW[0].f7_reg/C
+                               SM[2].u_sm/u_core/SUBP[1].u_tc/ROW[0].COL[4].u_mac/p_r_reg/OPMODE[4]
+                                                              0.063         
+SM[3].u_sm/u_core/SUBP[0].u_tc/ROW[1].f7_reg_replica/C
+                               SM[3].u_sm/u_core/SUBP[0].u_tc/ROW[1].COL[5].u_mac/p_r_reg/OPMODE[4]
+                                                              0.064         
+SM[2].u_sm/u_core/SUBP[1].u_tc/ROW[0].f7_reg/C
+                               SM[2].u_sm/u_core/SUBP[1].u_tc/ROW[0].COL[3].u_mac/p_r_reg/OPMODE[4]
+                                                              0.064         
+SM[19].u_sm/u_core/SUBP[1].u_tc/ROW[0].f7_reg/C
+                               SM[19].u_sm/u_core/SUBP[1].u_tc/ROW[0].COL[6].u_mac/p_r_reg/OPMODE[4]
+                                                              0.066         
+SM[23].u_sm/u_core/SUBP[2].u_tc/ROW[0].f7_reg/C
+                               SM[23].u_sm/u_core/SUBP[2].u_tc/ROW[0].COL[4].u_mac/p_r_reg/OPMODE[4]
+                                                              0.066         
+SM[23].u_sm/u_core/SUBP[2].u_tc/ROW[0].f7_reg/C
+                               SM[23].u_sm/u_core/SUBP[2].u_tc/ROW[0].COL[2].u_mac/p_r_reg/OPMODE[4]
+                                                              0.067         
+SM[5].u_sm/u_core/SUBP[2].u_tc/ROW[0].f7_reg/C
+                               SM[5].u_sm/u_core/SUBP[2].u_tc/ROW[0].COL[0].u_mac/p_r_reg/OPMODE[4]
+                                                              0.069         
+SM[6].u_sm/u_core/SUBP[2].u_tc/ROW[0].f7_reg/C
+                               SM[6].u_sm/u_core/SUBP[2].u_tc/ROW[0].COL[2].u_mac/p_r_reg/OPMODE[4]
+                                                              0.069         
+SM[18].u_sm/u_core/SUBP[1].u_tc/ROW[0].f7_reg/C
+                               SM[18].u_sm/u_core/SUBP[1].u_tc/ROW[0].COL[5].u_mac/p_r_reg/OPMODE[4]
+                                                              0.069         
+SM[0].u_sm/u_core/SUBP[0].u_tc/ROW[1].f7_reg/C
+                               SM[0].u_sm/u_core/SUBP[0].u_tc/ROW[1].COL[1].u_mac/p_r_reg/OPMODE[4]
+                                                              0.070         
+SM[19].u_sm/u_core/SUBP[2].u_tc/ROW[1].f7_reg/C
+                               SM[19].u_sm/u_core/SUBP[2].u_tc/ROW[1].COL[2].u_mac/p_r_reg/OPMODE[4]
+                                                              0.070         
+SM[7].u_sm/u_core/SUBP[2].u_tc/ROW[1].f7_reg/C
+                               SM[7].u_sm/u_core/SUBP[2].u_tc/ROW[1].COL[1].u_mac/p_r_reg/OPMODE[4]
+                                                              0.070         
+SM[23].u_sm/u_core/SUBP[0].u_tc/ROW[0].f7_reg/C
+                               SM[23].u_sm/u_core/SUBP[0].u_tc/ROW[0].COL[0].u_mac/p_r_reg/OPMODE[4]
+                                                              0.072         
+SM[22].u_sm/u_core/SUBP[3].u_tc/ROW[1].f7_reg/C
+                               SM[22].u_sm/u_core/SUBP[3].u_tc/ROW[1].COL[2].u_mac/p_r_reg/OPMODE[4]
+                                                              0.072         
+SM[20].u_sm/u_core/SUBP[0].u_tc/ROW[1].f7_reg/C
+                               SM[20].u_sm/u_core/SUBP[0].u_tc/ROW[1].COL[2].u_mac/p_r_reg/OPMODE[4]
+                                                              0.072         
+SM[22].u_sm/u_core/SUBP[3].u_tc/ROW[1].f7_reg/C
+                               SM[22].u_sm/u_core/SUBP[3].u_tc/ROW[1].COL[1].u_mac/p_r_reg/OPMODE[4]
+                                                              0.073         
+SM[17].u_sm/u_core/SUBP[0].u_tc/ROW[1].f7_reg_replica/C
+                               SM[17].u_sm/u_core/SUBP[0].u_tc/ROW[1].COL[0].u_mac/p_r_reg/OPMODE[4]
+                                                              0.073         
+SM[7].u_sm/u_core/SUBP[3].u_tc/ROW[0].f7_reg/C
+                               SM[7].u_sm/u_core/SUBP[3].u_tc/ROW[0].COL[5].u_mac/p_r_reg/OPMODE[4]
+                                                              0.073         
+SM[22].u_sm/u_core/SUBP[3].u_tc/ROW[0].f7_reg/C
+                               SM[22].u_sm/u_core/SUBP[3].u_tc/ROW[0].COL[7].u_mac/p_r_reg/OPMODE[4]
+                                                              0.075         
+SM[23].u_sm/u_core/SUBP[2].u_tc/ROW[0].f7_reg/C
+                               SM[23].u_sm/u_core/SUBP[2].u_tc/ROW[0].COL[3].u_mac/p_r_reg/OPMODE[4]
+                                                              0.075         
+SM[19].u_sm/u_core/SUBP[3].u_tc/ROW[1].f7_reg/C
+                               SM[19].u_sm/u_core/SUBP[3].u_tc/ROW[1].COL[5].u_mac/p_r_reg/OPMODE[4]
+                                                              0.076         
+SM[23].u_sm/u_core/SUBP[2].u_tc/ROW[0].f7_reg/C
+                               SM[23].u_sm/u_core/SUBP[2].u_tc/ROW[0].COL[0].u_mac/p_r_reg/OPMODE[4]
+                                                              0.076         
+SM[0].u_sm/u_core/SUBP[0].u_tc/ROW[1].f7_reg/C
+                               SM[0].u_sm/u_core/SUBP[0].u_tc/ROW[1].COL[6].u_mac/p_r_reg/OPMODE[4]
+                                                              0.077         
+SM[23].u_sm/u_core/SUBP[1].u_tc/ROW[0].f7_reg/C
+                               SM[23].u_sm/u_core/SUBP[1].u_tc/ROW[0].COL[0].u_mac/p_r_reg/OPMODE[4]
+                                                              0.077         
+SM[9].u_sm/u_core/SUBP[0].u_tc/ROW[0].f7_reg/C
+                               SM[9].u_sm/u_core/SUBP[0].u_tc/ROW[0].COL[1].u_mac/p_r_reg/OPMODE[4]
+                                                              0.077         
+SM[3].u_sm/u_core/SUBP[0].u_tc/ROW[1].f7_reg_replica/C
+                               SM[3].u_sm/u_core/SUBP[0].u_tc/ROW[1].COL[2].u_mac/p_r_reg/OPMODE[4]
+                                                              0.077         
+SM[23].u_sm/u_core/SUBP[1].u_tc/ROW[1].f7_reg_replica/C
+                               SM[23].u_sm/u_core/SUBP[1].u_tc/ROW[1].COL[6].u_mac/p_r_reg/OPMODE[4]
+                                                              0.078         
+SM[17].u_sm/u_core/SUBP[3].u_tc/ROW[1].f7_reg/C
+                               SM[17].u_sm/u_core/SUBP[3].u_tc/ROW[1].COL[5].u_mac/p_r_reg/OPMODE[4]
+                                                              0.078         
+SM[7].u_sm/u_core/SUBP[3].u_tc/ROW[0].f7_reg/C
+                               SM[7].u_sm/u_core/SUBP[3].u_tc/ROW[0].COL[4].u_mac/p_r_reg/OPMODE[4]
+                                                              0.079         
+SM[23].u_sm/u_core/SUBP[0].u_tc/ROW[0].f7_reg/C
+                               SM[23].u_sm/u_core/SUBP[0].u_tc/ROW[0].COL[3].u_mac/p_r_reg/OPMODE[4]
+                                                              0.080         
+SM[9].u_sm/u_core/SUBP[2].u_tc/ROW[1].f7_reg_replica/C
+                               SM[9].u_sm/u_core/SUBP[2].u_tc/ROW[1].COL[2].u_mac/p_r_reg/OPMODE[4]
+                                                              0.080         
+SM[23].u_sm/u_core/SUBP[1].u_tc/ROW[0].f7_reg/C
+                               SM[23].u_sm/u_core/SUBP[1].u_tc/ROW[0].COL[7].u_mac/p_r_reg/OPMODE[4]
+                                                              0.080         
+SM[17].u_sm/u_core/SUBP[0].u_tc/ROW[0].f7_reg/C
+                               SM[17].u_sm/u_core/SUBP[0].u_tc/ROW[0].COL[7].u_mac/p_r_reg/OPMODE[4]
+                                                              0.080         
+SM[23].u_sm/u_core/SUBP[1].u_tc/ROW[1].f7_reg_replica/C
+                               SM[23].u_sm/u_core/SUBP[1].u_tc/ROW[1].COL[4].u_mac/p_r_reg/OPMODE[4]
+                                                              0.081         
+SM[14].u_sm/u_core/SUBP[1].u_tc/ROW[1].f7_reg_replica/C
+                               SM[14].u_sm/u_core/SUBP[1].u_tc/ROW[1].COL[5].u_mac/p_r_reg/OPMODE[4]
+                                                              0.081         
+SM[17].u_sm/u_core/SUBP[0].u_tc/ROW[1].f7_reg_replica/C
+                               SM[17].u_sm/u_core/SUBP[0].u_tc/ROW[1].COL[5].u_mac/p_r_reg/OPMODE[4]
+                                                              0.081         
+SM[22].u_sm/u_core/SUBP[3].u_tc/ROW[1].f7_reg/C
+                               SM[22].u_sm/u_core/SUBP[3].u_tc/ROW[1].COL[3].u_mac/p_r_reg/OPMODE[4]
+                                                              0.082         
+SM[9].u_sm/u_core/SUBP[0].u_tc/ROW[0].f7_reg/C
+                               SM[9].u_sm/u_core/SUBP[0].u_tc/ROW[0].COL[4].u_mac/p_r_reg/OPMODE[4]
+                                                              0.083         
+SM[22].u_sm/u_core/SUBP[3].u_tc/ROW[1].f7_reg/C
+                               SM[22].u_sm/u_core/SUBP[3].u_tc/ROW[1].COL[7].u_mac/p_r_reg/OPMODE[4]
+                                                              0.083         
+SM[19].u_sm/u_core/SUBP[1].u_tc/ROW[0].f7_reg/C
+                               SM[19].u_sm/u_core/SUBP[1].u_tc/ROW[0].COL[3].u_mac/p_r_reg/OPMODE[4]
+                                                              0.083         
+SM[14].u_sm/u_core/SUBP[0].u_tc/ROW[1].f7_reg/C
+                               SM[14].u_sm/u_core/SUBP[0].u_tc/ROW[1].COL[6].u_mac/p_r_reg/OPMODE[4]
+                                                              0.084         
+SM[5].u_sm/u_core/SUBP[3].u_tc/ROW[0].f7_reg/C
+                               SM[5].u_sm/u_core/SUBP[3].u_tc/ROW[0].COL[5].u_mac/p_r_reg/OPMODE[4]
+                                                              0.084         
+SM[6].u_sm/u_core/SUBP[2].u_tc/ROW[0].f7_reg/C
+                               SM[6].u_sm/u_core/SUBP[2].u_tc/ROW[0].COL[7].u_mac/p_r_reg/OPMODE[4]
+                                                              0.085         
+SM[2].u_sm/u_core/SUBP[1].u_tc/ROW[1].f7_reg_replica/C
+                               SM[2].u_sm/u_core/SUBP[1].u_tc/ROW[1].COL[7].u_mac/p_r_reg/OPMODE[4]
+                                                              0.085         
+SM[0].u_sm/u_core/kk_reg[0]/C  SM[0].u_sm/u_core/kk_reg[5]/R  0.085         
+SM[0].u_sm/u_core/kk_reg[0]/C  SM[0].u_sm/u_core/kk_reg[6]/R  0.085         
+SM[0].u_sm/u_core/kk_reg[0]/C  SM[0].u_sm/u_core/kk_reg[7]/R  0.085         
+SM[0].u_sm/u_core/kk_reg[0]/C  SM[0].u_sm/u_core/kk_reg[8]/R  0.085         
+SM[0].u_sm/u_core/kk_reg[0]/C  SM[0].u_sm/u_core/kk_reg[9]/R  0.085         
+SM[18].u_sm/u_core/SUBP[2].u_tc/ROW[1].f7_reg_replica/C
+                               SM[18].u_sm/u_core/SUBP[2].u_tc/ROW[1].COL[0].u_mac/p_r_reg/OPMODE[4]
+                                                              0.086         
+SM[9].u_sm/u_core/SUBP[1].u_tc/ROW[0].f7_reg/C
+                               SM[9].u_sm/u_core/SUBP[1].u_tc/ROW[0].COL[6].u_mac/p_r_reg/OPMODE[4]
+                                                              0.086         
+SM[5].u_sm/u_core/SUBP[3].u_tc/ROW[0].f7_reg/C
+                               SM[5].u_sm/u_core/SUBP[3].u_tc/ROW[0].COL[6].u_mac/p_r_reg/OPMODE[4]
+                                                              0.086         
+SM[16].u_sm/u_core/SUBP[1].u_tc/ROW[0].f7_reg/C
+                               SM[16].u_sm/u_core/SUBP[1].u_tc/ROW[0].COL[1].u_mac/p_r_reg/OPMODE[4]
+                                                              0.087         
+SM[18].u_sm/u_core/SUBP[2].u_tc/ROW[0].f7_reg/C
+                               SM[18].u_sm/u_core/SUBP[2].u_tc/ROW[0].COL[1].u_mac/p_r_reg/OPMODE[4]
+                                                              0.087         
+SM[11].u_sm/u_core/kk_reg[1]/C SM[11].u_sm/u_core/kk_reg[1]/R 0.087         
+SM[11].u_sm/u_core/kk_reg[1]/C SM[11].u_sm/u_core/kk_reg[2]/R 0.087         
+SM[11].u_sm/u_core/kk_reg[1]/C SM[11].u_sm/u_core/kk_reg[6]/R 0.087         
+SM[11].u_sm/u_core/kk_reg[1]/C SM[11].u_sm/u_core/kk_reg[7]/R 0.087         
+SM[19].u_sm/u_core/SUBP[2].u_tc/ROW[1].f7_reg/C
+                               SM[19].u_sm/u_core/SUBP[2].u_tc/ROW[1].COL[7].u_mac/p_r_reg/OPMODE[4]
+                                                              0.088         
+SM[5].u_sm/u_core/SUBP[3].u_tc/ROW[0].f7_reg/C
+                               SM[5].u_sm/u_core/SUBP[3].u_tc/ROW[0].COL[0].u_mac/p_r_reg/OPMODE[4]
+                                                              0.088         
+SM[18].u_sm/u_core/SUBP[0].u_tc/ROW[0].f7_reg/C
+                               SM[18].u_sm/u_core/SUBP[0].u_tc/ROW[0].COL[6].u_mac/p_r_reg/OPMODE[4]
+                                                              0.089         
+SM[11].u_sm/u_core/SUBP[1].u_tc/ROW[1].f7_reg/C
+                               SM[11].u_sm/u_core/SUBP[1].u_tc/ROW[1].COL[0].u_mac/p_r_reg/OPMODE[4]
+                                                              0.090         
+SM[22].u_sm/u_core/SUBP[2].u_tc/ROW[0].f7_reg/C
+                               SM[22].u_sm/u_core/SUBP[2].u_tc/ROW[0].COL[4].u_mac/p_r_reg/OPMODE[4]
+                                                              0.090         
+SM[19].u_sm/u_core/SUBP[1].u_tc/ROW[0].f7_reg/C
+                               SM[19].u_sm/u_core/SUBP[1].u_tc/ROW[0].COL[2].u_mac/p_r_reg/OPMODE[4]
+                                                              0.092         
+SM[18].u_sm/u_core/SUBP[2].u_tc/ROW[0].f7_reg/C
+                               SM[18].u_sm/u_core/SUBP[2].u_tc/ROW[0].COL[3].u_mac/p_r_reg/OPMODE[4]
+                                                              0.092         
+SM[16].u_sm/u_core/SUBP[2].u_tc/ROW[0].f7_reg_replica/C
+                               SM[16].u_sm/u_core/SUBP[2].u_tc/ROW[0].COL[5].u_mac/p_r_reg/OPMODE[4]
+                                                              0.093         
+SM[6].u_sm/u_core/SUBP[2].u_tc/ROW[0].f7_reg/C
+                               SM[6].u_sm/u_core/SUBP[2].u_tc/ROW[0].COL[5].u_mac/p_r_reg/OPMODE[4]
+                                                              0.094         
+SM[17].u_sm/u_core/SUBP[0].u_tc/ROW[0].f7_reg/C
+                               SM[17].u_sm/u_core/SUBP[0].u_tc/ROW[0].COL[4].u_mac/p_r_reg/OPMODE[4]
+                                                              0.094         
+SM[9].u_sm/u_core/SUBP[0].u_tc/ROW[1].f7_reg/C
+                               SM[9].u_sm/u_core/SUBP[0].u_tc/ROW[1].COL[1].u_mac/p_r_reg/OPMODE[4]
+                                                              0.094         
+SM[22].u_sm/u_core/SUBP[3].u_tc/ROW[1].f7_reg/C
+                               SM[22].u_sm/u_core/SUBP[3].u_tc/ROW[1].COL[6].u_mac/p_r_reg/OPMODE[4]
+                                                              0.095         
+SM[4].u_sm/u_core/SUBP[0].u_tc/ROW[0].f7_reg_replica/C
+                               SM[4].u_sm/u_core/SUBP[0].u_tc/ROW[0].COL[2].u_mac/p_r_reg/OPMODE[4]
+                                                              0.095         
+SM[18].u_sm/u_core/SUBP[0].u_tc/ROW[0].f7_reg/C
+                               SM[18].u_sm/u_core/SUBP[0].u_tc/ROW[0].COL[7].u_mac/p_r_reg/OPMODE[4]
+                                                              0.095         
+SM[18].u_sm/u_core/SUBP[2].u_tc/ROW[1].f7_reg_replica/C
+                               SM[18].u_sm/u_core/SUBP[2].u_tc/ROW[1].COL[5].u_mac/p_r_reg/OPMODE[4]
+                                                              0.095         
+SM[3].u_sm/u_core/SUBP[0].u_tc/ROW[1].f7_reg_replica/C
+                               SM[3].u_sm/u_core/SUBP[0].u_tc/ROW[1].COL[3].u_mac/p_r_reg/OPMODE[4]
+                                                              0.095         
+SM[20].u_sm/u_core/SUBP[0].u_tc/ROW[1].f7_reg/C
+                               SM[20].u_sm/u_core/SUBP[0].u_tc/ROW[1].COL[7].u_mac/p_r_reg/OPMODE[4]
+                                                              0.095         
+SM[7].u_sm/u_core/SUBP[2].u_tc/ROW[1].f7_reg/C
+                               SM[7].u_sm/u_core/SUBP[2].u_tc/ROW[1].COL[5].u_mac/p_r_reg/OPMODE[4]
+                                                              0.096         
+SM[13].u_sm/u_core/SUBP[2].u_tc/ROW[1].f7_reg/C
+                               SM[13].u_sm/u_core/SUBP[2].u_tc/ROW[1].COL[2].u_mac/p_r_reg/OPMODE[4]
+                                                              0.096         
+SM[9].u_sm/u_core/SUBP[2].u_tc/ROW[0].f7_reg/C
+                               SM[9].u_sm/u_core/SUBP[2].u_tc/ROW[0].COL[5].u_mac/p_r_reg/OPMODE[4]
+                                                              0.097         
+SM[17].u_sm/u_core/SUBP[3].u_tc/ROW[1].f7_reg/C
+                               SM[17].u_sm/u_core/SUBP[3].u_tc/ROW[1].COL[0].u_mac/p_r_reg/OPMODE[4]
+                                                              0.097         
+SM[7].u_sm/u_core/SUBP[3].u_tc/ROW[0].f7_reg/C
+                               SM[7].u_sm/u_core/SUBP[3].u_tc/ROW[0].COL[1].u_mac/p_r_reg/OPMODE[4]
+                                                              0.097         
+SM[23].u_sm/u_core/SUBP[2].u_tc/ROW[0].f7_reg/C
+                               SM[23].u_sm/u_core/SUBP[2].u_tc/ROW[0].COL[1].u_mac/p_r_reg/OPMODE[4]
+                                                              0.097         
+SM[20].u_sm/u_core/SUBP[0].u_tc/ROW[1].f7_reg/C
+                               SM[20].u_sm/u_core/SUBP[0].u_tc/ROW[1].COL[6].u_mac/p_r_reg/OPMODE[4]
+                                                              0.097         
+SM[9].u_sm/u_core/SUBP[0].u_tc/ROW[0].f7_reg/C
+                               SM[9].u_sm/u_core/SUBP[0].u_tc/ROW[0].COL[2].u_mac/p_r_reg/OPMODE[4]
+                                                              0.097         
+SM[5].u_sm/u_core/SUBP[3].u_tc/ROW[0].f7_reg/C
+                               SM[5].u_sm/u_core/SUBP[3].u_tc/ROW[0].COL[4].u_mac/p_r_reg/OPMODE[4]
+                                                              0.098         
+SM[9].u_sm/u_core/SUBP[1].u_tc/ROW[0].f7_reg/C
+                               SM[9].u_sm/u_core/SUBP[1].u_tc/ROW[0].COL[2].u_mac/p_r_reg/OPMODE[4]
+                                                              0.099         
+SM[19].u_sm/u_core/SUBP[2].u_tc/ROW[1].f7_reg/C
+                               SM[19].u_sm/u_core/SUBP[2].u_tc/ROW[1].COL[4].u_mac/p_r_reg/OPMODE[4]
+                                                              0.099         
+SM[18].u_sm/u_core/SUBP[2].u_tc/ROW[0].f7_reg/C
+                               SM[18].u_sm/u_core/SUBP[2].u_tc/ROW[0].COL[0].u_mac/p_r_reg/OPMODE[4]
+                                                              0.100         
+SM[17].u_sm/u_core/SUBP[3].u_tc/ROW[1].f7_reg/C
+                               SM[17].u_sm/u_core/SUBP[3].u_tc/ROW[1].COL[7].u_mac/p_r_reg/OPMODE[4]
+                                                              0.100         
+SM[22].u_sm/u_core/SUBP[2].u_tc/ROW[0].f7_reg/C
+                               SM[22].u_sm/u_core/SUBP[2].u_tc/ROW[0].COL[2].u_mac/p_r_reg/OPMODE[4]
+                                                              0.101         
+SM[23].u_sm/u_core/SUBP[3].u_tc/ROW[0].f7_reg/C
+                               SM[23].u_sm/u_core/SUBP[3].u_tc/ROW[0].COL[0].u_mac/p_r_reg/OPMODE[4]
+                                                              0.101         
+SM[23].u_sm/u_core/SUBP[0].u_tc/ROW[0].f7_reg/C
+                               SM[23].u_sm/u_core/SUBP[0].u_tc/ROW[0].COL[4].u_mac/p_r_reg/OPMODE[4]
+                                                              0.102         
+SM[6].u_sm/u_core/SUBP[1].u_tc/ROW[0].f7_reg/C
+                               SM[6].u_sm/u_core/SUBP[1].u_tc/ROW[0].COL[5].u_mac/p_r_reg/OPMODE[4]
+                                                              0.103         
+SM[2].u_sm/u_core/SUBP[1].u_tc/ROW[0].f7_reg/C
+                               SM[2].u_sm/u_core/SUBP[1].u_tc/ROW[0].COL[7].u_mac/p_r_reg/OPMODE[4]
+                                                              0.103         
+SM[19].u_sm/u_core/SUBP[0].u_tc/ROW[1].f7_reg/C
+                               SM[19].u_sm/u_core/SUBP[0].u_tc/ROW[1].COL[4].u_mac/p_r_reg/OPMODE[4]
+                                                              0.103         
+SM[18].u_sm/u_core/SUBP[2].u_tc/ROW[0].f7_reg/C
+                               SM[18].u_sm/u_core/SUBP[2].u_tc/ROW[0].COL[7].u_mac/p_r_reg/OPMODE[4]
+                                                              0.103         
+SM[11].u_sm/u_core/SUBP[1].u_tc/ROW[1].f7_reg/C
+                               SM[11].u_sm/u_core/SUBP[1].u_tc/ROW[1].COL[6].u_mac/p_r_reg/OPMODE[4]
+                                                              0.104         
+SM[20].u_sm/u_core/SUBP[2].u_tc/ROW[0].f7_reg/C
+                               SM[20].u_sm/u_core/SUBP[2].u_tc/ROW[0].COL[0].u_mac/p_r_reg/OPMODE[4]
+                                                              0.104         
+SM[17].u_sm/u_core/SUBP[0].u_tc/ROW[1].f7_reg_replica/C
+                               SM[17].u_sm/u_core/SUBP[0].u_tc/ROW[1].COL[2].u_mac/p_r_reg/OPMODE[4]
+                                                              0.104         
+SM[20].u_sm/u_core/SUBP[2].u_tc/ROW[0].f7_reg/C
+                               SM[20].u_sm/u_core/SUBP[2].u_tc/ROW[0].COL[4].u_mac/p_r_reg/OPMODE[4]
+                                                              0.104         
+SM[6].u_sm/u_core/SUBP[2].u_tc/ROW[0].f7_reg/C
+                               SM[6].u_sm/u_core/SUBP[2].u_tc/ROW[0].COL[3].u_mac/p_r_reg/OPMODE[4]
+                                                              0.104         
+SM[2].u_sm/u_core/SUBP[3].u_tc/ROW[0].f7_reg/C
+                               SM[2].u_sm/u_core/SUBP[3].u_tc/ROW[0].COL[5].u_mac/p_r_reg/OPMODE[4]
+                                                              0.104         
+SM[9].u_sm/u_core/SUBP[3].u_tc/ROW[1].f7_reg/C
+                               SM[9].u_sm/u_core/SUBP[3].u_tc/ROW[1].COL[2].u_mac/p_r_reg/OPMODE[4]
+                                                              0.104         
+SM[19].u_sm/u_core/SUBP[0].u_tc/ROW[1].f7_reg/C
+                               SM[19].u_sm/u_core/SUBP[0].u_tc/ROW[1].COL[3].u_mac/p_r_reg/OPMODE[4]
+                                                              0.104         
+SM[16].u_sm/u_core/SUBP[2].u_tc/ROW[0].f7_reg_replica/C
+                               SM[16].u_sm/u_core/SUBP[2].u_tc/ROW[0].COL[0].u_mac/p_r_reg/OPMODE[4]
+                                                              0.104         
+SM[16].u_sm/u_core/SUBP[0].u_tc/ROW[0].f7_reg/C
+                               SM[16].u_sm/u_core/SUBP[0].u_tc/ROW[0].COL[1].u_mac/p_r_reg/OPMODE[4]
+                                                              0.104         
+SM[8].u_sm/u_core/SUBP[2].u_tc/ROW[0].f7_reg/C
+                               SM[8].u_sm/u_core/SUBP[2].u_tc/ROW[0].COL[4].u_mac/p_r_reg/OPMODE[4]
+                                                              0.104         
+SM[13].u_sm/u_core/SUBP[2].u_tc/ROW[1].f7_reg/C
+                               SM[13].u_sm/u_core/SUBP[2].u_tc/ROW[1].COL[4].u_mac/p_r_reg/OPMODE[4]
+                                                              0.104         
+SM[6].u_sm/u_core/SUBP[1].u_tc/ROW[0].f7_reg/C
+                               SM[6].u_sm/u_core/SUBP[1].u_tc/ROW[0].COL[6].u_mac/p_r_reg/OPMODE[4]
+                                                              0.105         
+SM[19].u_sm/u_core/SUBP[3].u_tc/ROW[1].f7_reg/C
+                               SM[19].u_sm/u_core/SUBP[3].u_tc/ROW[1].COL[2].u_mac/p_r_reg/OPMODE[4]
+                                                              0.105         
+SM[18].u_sm/u_core/SUBP[1].u_tc/ROW[0].f7_reg/C
+                               SM[18].u_sm/u_core/SUBP[1].u_tc/ROW[0].COL[4].u_mac/p_r_reg/OPMODE[4]
+                                                              0.105         
+SM[16].u_sm/u_core/SUBP[3].u_tc/ROW[0].f7_reg/C
+                               SM[16].u_sm/u_core/SUBP[3].u_tc/ROW[0].COL[7].u_mac/p_r_reg/OPMODE[4]
+                                                              0.105         
+SM[12].u_sm/u_core/SUBP[3].u_tc/ROW[0].f7_reg/C
+                               SM[12].u_sm/u_core/SUBP[3].u_tc/ROW[0].COL[3].u_mac/p_r_reg/OPMODE[4]
+                                                              0.105         
+SM[11].u_sm/u_core/SUBP[1].u_tc/ROW[1].f7_reg/C
+                               SM[11].u_sm/u_core/SUBP[1].u_tc/ROW[1].COL[7].u_mac/p_r_reg/OPMODE[4]
+                                                              0.106         
+SM[17].u_sm/u_core/SUBP[1].u_tc/ROW[0].f7_reg_replica/C
+                               SM[17].u_sm/u_core/SUBP[1].u_tc/ROW[0].COL[5].u_mac/p_r_reg/OPMODE[4]
+                                                              0.106         
+SM[23].u_sm/u_core/SUBP[1].u_tc/ROW[0].f7_reg/C
+                               SM[23].u_sm/u_core/SUBP[1].u_tc/ROW[0].COL[3].u_mac/p_r_reg/OPMODE[4]
+                                                              0.106         
+SM[6].u_sm/u_core/SUBP[0].u_tc/ROW[1].f7_reg/C
+                               SM[6].u_sm/u_core/SUBP[0].u_tc/ROW[1].COL[6].u_mac/p_r_reg/OPMODE[4]
+                                                              0.106         
+SM[5].u_sm/u_core/SUBP[2].u_tc/ROW[0].f7_reg/C
+                               SM[5].u_sm/u_core/SUBP[2].u_tc/ROW[0].COL[4].u_mac/p_r_reg/OPMODE[4]
+                                                              0.107         
+SM[23].u_sm/u_core/SUBP[3].u_tc/ROW[1].f7_reg/C
+                               SM[23].u_sm/u_core/SUBP[3].u_tc/ROW[1].COL[3].u_mac/p_r_reg/OPMODE[4]
+                                                              0.107         
+SM[22].u_sm/u_core/SUBP[1].u_tc/ROW[1].f7_reg/C
+                               SM[22].u_sm/u_core/SUBP[1].u_tc/ROW[1].COL[2].u_mac/p_r_reg/OPMODE[4]
+                                                              0.107         
+SM[21].u_sm/u_core/SUBP[1].u_tc/ROW[0].f7_reg/C
+                               SM[21].u_sm/u_core/SUBP[1].u_tc/ROW[0].COL[5].u_mac/p_r_reg/OPMODE[4]
+                                                              0.107         
+SM[22].u_sm/u_core/SUBP[2].u_tc/ROW[1].f7_reg/C
+                               SM[22].u_sm/u_core/SUBP[2].u_tc/ROW[1].COL[2].u_mac/p_r_reg/OPMODE[4]
+                                                              0.107         
+SM[9].u_sm/u_core/SUBP[2].u_tc/ROW[0].f7_reg/C
+                               SM[9].u_sm/u_core/SUBP[2].u_tc/ROW[0].COL[6].u_mac/p_r_reg/OPMODE[4]
+                                                              0.108         
+SM[6].u_sm/u_core/SUBP[0].u_tc/ROW[0].f7_reg/C
+                               SM[6].u_sm/u_core/SUBP[0].u_tc/ROW[0].COL[0].u_mac/p_r_reg/OPMODE[4]
+                                                              0.108         
+SM[6].u_sm/u_core/SUBP[0].u_tc/ROW[0].f7_reg/C
+                               SM[6].u_sm/u_core/SUBP[0].u_tc/ROW[0].COL[7].u_mac/p_r_reg/OPMODE[4]
+                                                              0.108         
+SM[16].u_sm/u_core/kk_reg[2]/C SM[16].u_sm/u_core/dl_reg[2]_srl6_srlopt/D
+                                                              0.108         
+SM[22].u_sm/u_core/SUBP[0].u_tc/ROW[0].f7_reg_replica/C
+                               SM[22].u_sm/u_core/SUBP[0].u_tc/ROW[0].COL[5].u_mac/p_r_reg/OPMODE[4]
+                                                              0.109         
+SM[9].u_sm/u_core/SUBP[0].u_tc/ROW[1].f7_reg/C
+                               SM[9].u_sm/u_core/SUBP[0].u_tc/ROW[1].COL[3].u_mac/p_r_reg/OPMODE[4]
+                                                              0.109         
+SM[18].u_sm/u_core/SUBP[0].u_tc/ROW[1].f7_reg/C
+                               SM[18].u_sm/u_core/SUBP[0].u_tc/ROW[1].COL[0].u_mac/p_r_reg/OPMODE[4]
+                                                              0.110         
+SM[14].u_sm/u_core/SUBP[1].u_tc/ROW[1].f7_reg_replica/C
+                               SM[14].u_sm/u_core/SUBP[1].u_tc/ROW[1].COL[2].u_mac/p_r_reg/OPMODE[4]
+                                                              0.110         
+SM[11].u_sm/u_core/SUBP[0].u_tc/ROW[1].f7_reg/C
+                               SM[11].u_sm/u_core/SUBP[0].u_tc/ROW[1].COL[0].u_mac/p_r_reg/OPMODE[4]
+                                                              0.110         
+SM[6].u_sm/u_core/SUBP[0].u_tc/ROW[0].f7_reg/C
+                               SM[6].u_sm/u_core/SUBP[0].u_tc/ROW[0].COL[6].u_mac/p_r_reg/OPMODE[4]
+                                                              0.110         
+SM[20].u_sm/u_core/SUBP[2].u_tc/ROW[0].f7_reg/C
+                               SM[20].u_sm/u_core/SUBP[2].u_tc/ROW[0].COL[5].u_mac/p_r_reg/OPMODE[4]
+                                                              0.111         
+SM[14].u_sm/u_core/SUBP[0].u_tc/ROW[1].f7_reg/C
+                               SM[14].u_sm/u_core/SUBP[0].u_tc/ROW[1].COL[0].u_mac/p_r_reg/OPMODE[4]
+                                                              0.111         
+SM[23].u_sm/u_core/SUBP[1].u_tc/ROW[1].f7_reg_replica/C
+                               SM[23].u_sm/u_core/SUBP[1].u_tc/ROW[1].COL[1].u_mac/p_r_reg/OPMODE[4]
+                                                              0.112         
+SM[16].u_sm/u_core/SUBP[3].u_tc/ROW[0].f7_reg/C
+                               SM[16].u_sm/u_core/SUBP[3].u_tc/ROW[0].COL[4].u_mac/p_r_reg/OPMODE[4]
+                                                              0.112         
+SM[12].u_sm/u_core/SUBP[3].u_tc/ROW[0].f7_reg/C
+                               SM[12].u_sm/u_core/SUBP[3].u_tc/ROW[0].COL[5].u_mac/p_r_reg/OPMODE[4]
+                                                              0.112         
+SM[15].u_sm/u_core/SUBP[3].u_tc/ROW[0].f7_reg/C
+                               SM[15].u_sm/u_core/SUBP[3].u_tc/ROW[0].COL[5].u_mac/p_r_reg/OPMODE[4]
+                                                              0.113         
+SM[7].u_sm/u_core/SUBP[2].u_tc/ROW[1].f7_reg/C
+                               SM[7].u_sm/u_core/SUBP[2].u_tc/ROW[1].COL[6].u_mac/p_r_reg/OPMODE[4]
+                                                              0.113         
+SM[17].u_sm/u_core/SUBP[1].u_tc/ROW[1].f7_reg/C
+                               SM[17].u_sm/u_core/SUBP[1].u_tc/ROW[1].COL[3].u_mac/p_r_reg/OPMODE[4]
+                                                              0.113         
+SM[18].u_sm/u_core/SUBP[2].u_tc/ROW[1].f7_reg_replica/C
+                               SM[18].u_sm/u_core/SUBP[2].u_tc/ROW[1].COL[4].u_mac/p_r_reg/OPMODE[4]
+                                                              0.114         
+SM[22].u_sm/u_core/SUBP[2].u_tc/ROW[1].f7_reg/C
+                               SM[22].u_sm/u_core/SUBP[2].u_tc/ROW[1].COL[5].u_mac/p_r_reg/OPMODE[4]
+                                                              0.114         
+SM[8].u_sm/u_core/SUBP[3].u_tc/ROW[0].f7_reg/C
+                               SM[8].u_sm/u_core/SUBP[3].u_tc/ROW[0].COL[2].u_mac/p_r_reg/OPMODE[4]
+                                                              0.114         
+SM[10].u_sm/u_core/SUBP[2].u_tc/ROW[1].f7_reg_replica/C
+                               SM[10].u_sm/u_core/SUBP[2].u_tc/ROW[1].COL[0].u_mac/p_r_reg/OPMODE[4]
+                                                              0.115         
+SM[23].u_sm/u_core/SUBP[0].u_tc/ROW[0].f7_reg/C
+                               SM[23].u_sm/u_core/SUBP[0].u_tc/ROW[0].COL[2].u_mac/p_r_reg/OPMODE[4]
+                                                              0.115         
+SM[5].u_sm/u_core/SUBP[0].u_tc/ROW[1].f7_reg/C
+                               SM[5].u_sm/u_core/SUBP[0].u_tc/ROW[1].COL[6].u_mac/p_r_reg/OPMODE[4]
+                                                              0.115         
+SM[21].u_sm/u_core/SUBP[1].u_tc/ROW[0].f7_reg/C
+                               SM[21].u_sm/u_core/SUBP[1].u_tc/ROW[0].COL[4].u_mac/p_r_reg/OPMODE[4]
+                                                              0.115         
+SM[17].u_sm/u_core/SUBP[2].u_tc/ROW[0].f7_reg/C
+                               SM[17].u_sm/u_core/SUBP[2].u_tc/ROW[0].COL[1].u_mac/p_r_reg/OPMODE[4]
+                                                              0.115         
+SM[12].u_sm/u_core/kk_reg[2]/C SM[12].u_sm/u_core/kk_reg[3]/R 0.115         
+SM[12].u_sm/u_core/kk_reg[2]/C SM[12].u_sm/u_core/kk_reg[4]/R 0.115         
+SM[12].u_sm/u_core/kk_reg[2]/C SM[12].u_sm/u_core/kk_reg[6]/R 0.115         
+SM[12].u_sm/u_core/kk_reg[2]/C SM[12].u_sm/u_core/kk_reg[7]/R 0.115         
+SM[12].u_sm/u_core/kk_reg[2]/C SM[12].u_sm/u_core/kk_reg[8]/R 0.115         
+SM[12].u_sm/u_core/kk_reg[2]/C SM[12].u_sm/u_core/kk_reg[9]/R 0.115         
+SM[18].u_sm/u_core/SUBP[1].u_tc/ROW[1].f7_reg/C
+                               SM[18].u_sm/u_core/SUBP[1].u_tc/ROW[1].COL[2].u_mac/p_r_reg/OPMODE[4]
+                                                              0.115         
+SM[9].u_sm/u_core/SUBP[2].u_tc/ROW[1].f7_reg_replica/C
+                               SM[9].u_sm/u_core/SUBP[2].u_tc/ROW[1].COL[3].u_mac/p_r_reg/OPMODE[4]
+                                                              0.116         
+SM[14].u_sm/u_core/SUBP[1].u_tc/ROW[1].f7_reg_replica/C
+                               SM[14].u_sm/u_core/SUBP[1].u_tc/ROW[1].COL[6].u_mac/p_r_reg/OPMODE[4]
+                                                              0.116         
+SM[23].u_sm/u_core/SUBP[2].u_tc/ROW[0].f7_reg/C
+                               SM[23].u_sm/u_core/SUBP[2].u_tc/ROW[0].COL[5].u_mac/p_r_reg/OPMODE[4]
+                                                              0.116         
+SM[22].u_sm/u_core/SUBP[2].u_tc/ROW[0].f7_reg/C
+                               SM[22].u_sm/u_core/SUBP[2].u_tc/ROW[0].COL[3].u_mac/p_r_reg/OPMODE[4]
+                                                              0.116         
+SM[10].u_sm/u_core/SUBP[2].u_tc/ROW[1].f7_reg_replica/C
+                               SM[10].u_sm/u_core/SUBP[2].u_tc/ROW[1].COL[2].u_mac/p_r_reg/OPMODE[4]
+                                                              0.117         
+SM[13].u_sm/u_core/kk_reg[0]/C SM[13].u_sm/u_core/kk_reg[0]/R 0.117         
+SM[13].u_sm/u_core/kk_reg[0]/C SM[13].u_sm/u_core/kk_reg[1]/R 0.117         
+SM[13].u_sm/u_core/kk_reg[0]/C SM[13].u_sm/u_core/kk_reg[2]/R 0.117         
+SM[13].u_sm/u_core/kk_reg[0]/C SM[13].u_sm/u_core/kk_reg[3]/R 0.117         
+SM[13].u_sm/u_core/kk_reg[0]/C SM[13].u_sm/u_core/kk_reg[5]/R 0.117         
+SM[13].u_sm/u_core/kk_reg[0]/C SM[13].u_sm/u_core/kk_reg[7]/R 0.117         
+SM[13].u_sm/u_core/kk_reg[0]/C SM[13].u_sm/u_core/kk_reg[8]/R 0.117         
+SM[13].u_sm/u_core/kk_reg[0]/C SM[13].u_sm/u_core/kk_reg[9]/R 0.117         
+SM[10].u_sm/u_core/SUBP[0].u_tc/ROW[0].f7_reg/C
+                               SM[10].u_sm/u_core/SUBP[0].u_tc/ROW[0].COL[5].u_mac/p_r_reg/OPMODE[4]
+                                                              0.117         
+SM[5].u_sm/u_core/SUBP[2].u_tc/ROW[1].f7_reg/C
+                               SM[5].u_sm/u_core/SUBP[2].u_tc/ROW[1].COL[0].u_mac/p_r_reg/OPMODE[4]
+                                                              0.117         
+SM[9].u_sm/u_core/SUBP[0].u_tc/ROW[0].f7_reg/C
+                               SM[9].u_sm/u_core/SUBP[0].u_tc/ROW[0].COL[5].u_mac/p_r_reg/OPMODE[4]
+                                                              0.117         
+SM[15].u_sm/u_core/SUBP[2].u_tc/ROW[1].f7_reg/C
+                               SM[15].u_sm/u_core/SUBP[2].u_tc/ROW[1].COL[2].u_mac/p_r_reg/OPMODE[4]
+                                                              0.117         
+SM[0].u_sm/u_core/SUBP[0].u_tc/ROW[0].f7_reg/C
+                               SM[0].u_sm/u_core/SUBP[0].u_tc/ROW[0].COL[2].u_mac/p_r_reg/OPMODE[4]
+                                                              0.117         
+SM[21].u_sm/u_core/SUBP[2].u_tc/ROW[0].f7_reg/C
+                               SM[21].u_sm/u_core/SUBP[2].u_tc/ROW[0].COL[2].u_mac/p_r_reg/OPMODE[4]
+                                                              0.118         
+SM[15].u_sm/u_core/SUBP[3].u_tc/ROW[0].f7_reg/C
+                               SM[15].u_sm/u_core/SUBP[3].u_tc/ROW[0].COL[0].u_mac/p_r_reg/OPMODE[4]
+                                                              0.119         
+SM[23].u_sm/u_core/SUBP[0].u_tc/ROW[0].f7_reg/C
+                               SM[23].u_sm/u_core/SUBP[0].u_tc/ROW[0].COL[1].u_mac/p_r_reg/OPMODE[4]
+                                                              0.119         
+SM[22].u_sm/u_core/SUBP[1].u_tc/ROW[1].f7_reg/C
+                               SM[22].u_sm/u_core/SUBP[1].u_tc/ROW[1].COL[0].u_mac/p_r_reg/OPMODE[4]
+                                                              0.119         
+SM[19].u_sm/u_core/SUBP[0].u_tc/ROW[1].f7_reg/C
+                               SM[19].u_sm/u_core/SUBP[0].u_tc/ROW[1].COL[5].u_mac/p_r_reg/OPMODE[4]
+                                                              0.119         
+SM[7].u_sm/u_core/SUBP[2].u_tc/ROW[0].f7_reg/C
+                               SM[7].u_sm/u_core/SUBP[2].u_tc/ROW[0].COL[3].u_mac/p_r_reg/OPMODE[4]
+                                                              0.120         
+SM[9].u_sm/u_core/SUBP[1].u_tc/ROW[0].f7_reg/C
+                               SM[9].u_sm/u_core/SUBP[1].u_tc/ROW[0].COL[1].u_mac/p_r_reg/OPMODE[4]
+                                                              0.120         
+SM[19].u_sm/u_core/SUBP[2].u_tc/ROW[1].f7_reg/C
+                               SM[19].u_sm/u_core/SUBP[2].u_tc/ROW[1].COL[6].u_mac/p_r_reg/OPMODE[4]
+                                                              0.120         
+SM[7].u_sm/u_core/SUBP[2].u_tc/ROW[1].f7_reg/C
+                               SM[7].u_sm/u_core/SUBP[2].u_tc/ROW[1].COL[3].u_mac/p_r_reg/OPMODE[4]
+                                                              0.120         
+SM[9].u_sm/u_core/SUBP[2].u_tc/ROW[0].f7_reg/C
+                               SM[9].u_sm/u_core/SUBP[2].u_tc/ROW[0].COL[7].u_mac/p_r_reg/OPMODE[4]
+                                                              0.120         
+SM[9].u_sm/u_core/SUBP[0].u_tc/ROW[0].f7_reg/C
+                               SM[9].u_sm/u_core/SUBP[0].u_tc/ROW[0].COL[6].u_mac/p_r_reg/OPMODE[4]
+                                                              0.120         
+SM[23].u_sm/u_core/SUBP[2].u_tc/ROW[0].f7_reg/C
+                               SM[23].u_sm/u_core/SUBP[2].u_tc/ROW[0].COL[6].u_mac/p_r_reg/OPMODE[4]
+                                                              0.121         
+SM[9].u_sm/u_core/SUBP[0].u_tc/ROW[1].f7_reg/C
+                               SM[9].u_sm/u_core/SUBP[0].u_tc/ROW[1].COL[0].u_mac/p_r_reg/OPMODE[4]
+                                                              0.121         
+SM[15].u_sm/u_core/SUBP[1].u_tc/ROW[0].f7_reg/C
+                               SM[15].u_sm/u_core/SUBP[1].u_tc/ROW[0].COL[6].u_mac/p_r_reg/OPMODE[4]
+                                                              0.121         
+SM[10].u_sm/u_core/SUBP[3].u_tc/ROW[1].f7_reg/C
+                               SM[10].u_sm/u_core/SUBP[3].u_tc/ROW[1].COL[5].u_mac/p_r_reg/OPMODE[4]
+                                                              0.121         
+SM[5].u_sm/u_core/kk_reg[4]/C  SM[5].u_sm/u_core/kk_reg[5]/R  0.121         
+SM[5].u_sm/u_core/kk_reg[4]/C  SM[5].u_sm/u_core/kk_reg[6]/R  0.121         
+SM[5].u_sm/u_core/kk_reg[4]/C  SM[5].u_sm/u_core/kk_reg[7]/R  0.121         
+SM[5].u_sm/u_core/kk_reg[4]/C  SM[5].u_sm/u_core/kk_reg[8]/R  0.121         
+SM[5].u_sm/u_core/kk_reg[4]/C  SM[5].u_sm/u_core/kk_reg[9]/R  0.121         
+SM[17].u_sm/u_core/SUBP[0].u_tc/ROW[0].f7_reg/C
+                               SM[17].u_sm/u_core/SUBP[0].u_tc/ROW[0].COL[0].u_mac/p_r_reg/OPMODE[4]
+                                                              0.122         
+SM[22].u_sm/u_core/SUBP[2].u_tc/ROW[1].f7_reg/C
+                               SM[22].u_sm/u_core/SUBP[2].u_tc/ROW[1].COL[1].u_mac/p_r_reg/OPMODE[4]
+                                                              0.122         
+SM[4].u_sm/u_core/SUBP[2].u_tc/ROW[0].f7_reg/C
+                               SM[4].u_sm/u_core/SUBP[2].u_tc/ROW[0].COL[6].u_mac/p_r_reg/OPMODE[4]
+                                                              0.123         
+SM[23].u_sm/u_core/SUBP[3].u_tc/ROW[0].f7_reg/C
+                               SM[23].u_sm/u_core/SUBP[3].u_tc/ROW[0].COL[1].u_mac/p_r_reg/OPMODE[4]
+                                                              0.123         
+SM[6].u_sm/u_core/SUBP[0].u_tc/ROW[0].f7_reg/C
+                               SM[6].u_sm/u_core/SUBP[0].u_tc/ROW[0].COL[5].u_mac/p_r_reg/OPMODE[4]
+                                                              0.123         
+SM[23].u_sm/u_core/SUBP[0].u_tc/ROW[0].f7_reg/C
+                               SM[23].u_sm/u_core/SUBP[0].u_tc/ROW[0].COL[5].u_mac/p_r_reg/OPMODE[4]
+                                                              0.124         
+SM[6].u_sm/u_core/k_m1_reg[4]/C
+                               SM[6].u_sm/u_core/kk_reg[0]/R  0.124         
+SM[6].u_sm/u_core/k_m1_reg[4]/C
+                               SM[6].u_sm/u_core/kk_reg[3]/R  0.124         
+SM[6].u_sm/u_core/k_m1_reg[4]/C
+                               SM[6].u_sm/u_core/kk_reg[4]/R  0.124         
+SM[6].u_sm/u_core/k_m1_reg[4]/C
+                               SM[6].u_sm/u_core/kk_reg[5]/R  0.124         
+SM[0].u_sm/u_core/kk_reg[0]/C  SM[0].u_sm/u_core/kk_reg[0]/R  0.124         
+SM[0].u_sm/u_core/kk_reg[0]/C  SM[0].u_sm/u_core/kk_reg[1]/R  0.124         
+SM[0].u_sm/u_core/kk_reg[0]/C  SM[0].u_sm/u_core/kk_reg[2]/R  0.124         
+SM[0].u_sm/u_core/kk_reg[0]/C  SM[0].u_sm/u_core/kk_reg[3]/R  0.124         
+SM[0].u_sm/u_core/kk_reg[0]/C  SM[0].u_sm/u_core/kk_reg[4]/R  0.124         
+SM[0].u_sm/u_core/SUBP[3].u_tc/ROW[0].f7_reg/C
+                               SM[0].u_sm/u_core/SUBP[3].u_tc/ROW[0].COL[0].u_mac/p_r_reg/OPMODE[4]
+                                                              0.124         
+SM[10].u_sm/u_core/SUBP[2].u_tc/ROW[0].f7_reg/C
+                               SM[10].u_sm/u_core/SUBP[2].u_tc/ROW[0].COL[6].u_mac/p_r_reg/OPMODE[4]
+                                                              0.124         
+SM[22].u_sm/u_core/kk_reg[4]/C SM[22].u_sm/u_core/kk_reg[5]/R 0.124         
+SM[15].u_sm/u_core/SUBP[3].u_tc/ROW[1].f7_reg/C
+                               SM[15].u_sm/u_core/SUBP[3].u_tc/ROW[1].COL[7].u_mac/p_r_reg/OPMODE[4]
+                                                              0.125         
+SM[5].u_sm/u_core/SUBP[0].u_tc/ROW[1].f7_reg/C
+                               SM[5].u_sm/u_core/SUBP[0].u_tc/ROW[1].COL[0].u_mac/p_r_reg/OPMODE[4]
+                                                              0.125         
+SM[10].u_sm/u_core/SUBP[2].u_tc/ROW[0].f7_reg/C
+                               SM[10].u_sm/u_core/SUBP[2].u_tc/ROW[0].COL[3].u_mac/p_r_reg/OPMODE[4]
+                                                              0.125         
+SM[13].u_sm/u_core/SUBP[1].u_tc/ROW[1].f7_reg/C
+                               SM[13].u_sm/u_core/SUBP[1].u_tc/ROW[1].COL[5].u_mac/p_r_reg/OPMODE[4]
+                                                              0.125         
+SM[8].u_sm/u_core/SUBP[3].u_tc/ROW[0].f7_reg/C
+                               SM[8].u_sm/u_core/SUBP[3].u_tc/ROW[0].COL[3].u_mac/p_r_reg/OPMODE[4]
+                                                              0.125         
+SM[23].u_sm/u_core/SUBP[1].u_tc/ROW[1].f7_reg_replica/C
+                               SM[23].u_sm/u_core/SUBP[1].u_tc/ROW[1].COL[2].u_mac/p_r_reg/OPMODE[4]
+                                                              0.125         
+SM[5].u_sm/u_core/SUBP[2].u_tc/ROW[0].f7_reg/C
+                               SM[5].u_sm/u_core/SUBP[2].u_tc/ROW[0].COL[5].u_mac/p_r_reg/OPMODE[4]
+                                                              0.125         
+SM[18].u_sm/u_core/SUBP[1].u_tc/ROW[0].f7_reg/C
+                               SM[18].u_sm/u_core/SUBP[1].u_tc/ROW[0].COL[6].u_mac/p_r_reg/OPMODE[4]
+                                                              0.125         
+SM[19].u_sm/u_core/SUBP[3].u_tc/ROW[1].f7_reg/C
+                               SM[19].u_sm/u_core/SUBP[3].u_tc/ROW[1].COL[3].u_mac/p_r_reg/OPMODE[4]
+                                                              0.126         
+SM[12].u_sm/u_core/SUBP[1].u_tc/ROW[1].f7_reg/C
+                               SM[12].u_sm/u_core/SUBP[1].u_tc/ROW[1].COL[2].u_mac/p_r_reg/OPMODE[4]
+                                                              0.127         
+SM[23].u_sm/u_core/SUBP[3].u_tc/ROW[0].f7_reg/C
+                               SM[23].u_sm/u_core/SUBP[3].u_tc/ROW[0].COL[3].u_mac/p_r_reg/OPMODE[4]
+                                                              0.127         
+SM[17].u_sm/u_core/SUBP[1].u_tc/ROW[0].f7_reg_replica/C
+                               SM[17].u_sm/u_core/SUBP[1].u_tc/ROW[0].COL[7].u_mac/p_r_reg/OPMODE[4]
+                                                              0.128         
+SM[20].u_sm/u_core/SUBP[2].u_tc/ROW[1].f7_reg/C
+                               SM[20].u_sm/u_core/SUBP[2].u_tc/ROW[1].COL[6].u_mac/p_r_reg/OPMODE[4]
+                                                              0.128         
+SM[15].u_sm/u_core/SUBP[2].u_tc/ROW[0].f7_reg_replica/C
+                               SM[15].u_sm/u_core/SUBP[2].u_tc/ROW[0].COL[0].u_mac/p_r_reg/OPMODE[4]
+                                                              0.128         
+SM[7].u_sm/u_core/SUBP[3].u_tc/ROW[0].f7_reg/C
+                               SM[7].u_sm/u_core/SUBP[3].u_tc/ROW[0].COL[3].u_mac/p_r_reg/OPMODE[4]
+                                                              0.128         
+SM[22].u_sm/u_core/SUBP[3].u_tc/ROW[1].f7_reg/C
+                               SM[22].u_sm/u_core/SUBP[3].u_tc/ROW[1].COL[5].u_mac/p_r_reg/OPMODE[4]
+                                                              0.128         
+SM[16].u_sm/u_core/SUBP[1].u_tc/ROW[0].f7_reg/C
+                               SM[16].u_sm/u_core/SUBP[1].u_tc/ROW[0].COL[7].u_mac/p_r_reg/OPMODE[4]
+                                                              0.128         
+SM[9].u_sm/u_core/SUBP[2].u_tc/ROW[1].f7_reg_replica/C
+                               SM[9].u_sm/u_core/SUBP[2].u_tc/ROW[1].COL[1].u_mac/p_r_reg/OPMODE[4]
+                                                              0.128         
+SM[16].u_sm/u_core/SUBP[2].u_tc/ROW[1].f7_reg/C
+                               SM[16].u_sm/u_core/SUBP[2].u_tc/ROW[1].COL[3].u_mac/p_r_reg/OPMODE[4]
+                                                              0.129         
+SM[16].u_sm/u_core/SUBP[2].u_tc/ROW[1].f7_reg/C
+                               SM[16].u_sm/u_core/SUBP[2].u_tc/ROW[1].COL[1].u_mac/p_r_reg/OPMODE[4]
+                                                              0.129         
+SM[0].u_sm/u_core/SUBP[1].u_tc/ROW[1].f7_reg/C
+                               SM[0].u_sm/u_core/SUBP[1].u_tc/ROW[1].COL[3].u_mac/p_r_reg/OPMODE[4]
+                                                              0.129         
+SM[8].u_sm/u_core/SUBP[1].u_tc/ROW[1].f7_reg/C
+                               SM[8].u_sm/u_core/SUBP[1].u_tc/ROW[1].COL[6].u_mac/p_r_reg/OPMODE[4]
+                                                              0.129         
+SM[19].u_sm/u_core/SUBP[1].u_tc/ROW[0].f7_reg/C
+                               SM[19].u_sm/u_core/SUBP[1].u_tc/ROW[0].COL[0].u_mac/p_r_reg/OPMODE[4]
+                                                              0.130         
+SM[6].u_sm/u_core/SUBP[1].u_tc/ROW[0].f7_reg/C
+                               SM[6].u_sm/u_core/SUBP[1].u_tc/ROW[0].COL[1].u_mac/p_r_reg/OPMODE[4]
+                                                              0.130         
+SM[0].u_sm/u_core/SUBP[1].u_tc/ROW[1].f7_reg/C
+                               SM[0].u_sm/u_core/SUBP[1].u_tc/ROW[1].COL[7].u_mac/p_r_reg/OPMODE[4]
+                                                              0.130         
+SM[16].u_sm/u_core/SUBP[0].u_tc/ROW[0].f7_reg/C
+                               SM[16].u_sm/u_core/SUBP[0].u_tc/ROW[0].COL[7].u_mac/p_r_reg/OPMODE[4]
+                                                              0.130         
+SM[23].u_sm/u_core/SUBP[3].u_tc/ROW[0].f7_reg/C
+                               SM[23].u_sm/u_core/SUBP[3].u_tc/ROW[0].COL[7].u_mac/p_r_reg/OPMODE[4]
+                                                              0.131         
+SM[23].u_sm/u_core/SUBP[3].u_tc/ROW[1].f7_reg/C
+                               SM[23].u_sm/u_core/SUBP[3].u_tc/ROW[1].COL[6].u_mac/p_r_reg/OPMODE[4]
+                                                              0.131         
+SM[7].u_sm/u_core/SUBP[1].u_tc/ROW[1].f7_reg/C
+                               SM[7].u_sm/u_core/SUBP[1].u_tc/ROW[1].COL[3].u_mac/p_r_reg/OPMODE[4]
+                                                              0.131         
+SM[2].u_sm/u_core/SUBP[3].u_tc/ROW[0].f7_reg/C
+                               SM[2].u_sm/u_core/SUBP[3].u_tc/ROW[0].COL[2].u_mac/p_r_reg/OPMODE[4]
+                                                              0.131         
+SM[0].u_sm/u_core/SUBP[1].u_tc/ROW[1].f7_reg/C
+                               SM[0].u_sm/u_core/SUBP[1].u_tc/ROW[1].COL[5].u_mac/p_r_reg/OPMODE[4]
+                                                              0.131         
+SM[18].u_sm/u_core/SUBP[1].u_tc/ROW[0].f7_reg/C
+                               SM[18].u_sm/u_core/SUBP[1].u_tc/ROW[0].COL[7].u_mac/p_r_reg/OPMODE[4]
+                                                              0.131         
+SM[18].u_sm/u_core/SUBP[1].u_tc/ROW[1].f7_reg/C
+                               SM[18].u_sm/u_core/SUBP[1].u_tc/ROW[1].COL[1].u_mac/p_r_reg/OPMODE[4]
+                                                              0.131         
+SM[11].u_sm/u_core/SUBP[0].u_tc/ROW[1].f7_reg/C
+                               SM[11].u_sm/u_core/SUBP[0].u_tc/ROW[1].COL[3].u_mac/p_r_reg/OPMODE[4]
+                                                              0.132         
+SM[13].u_sm/u_core/SUBP[2].u_tc/ROW[1].f7_reg/C
+                               SM[13].u_sm/u_core/SUBP[2].u_tc/ROW[1].COL[7].u_mac/p_r_reg/OPMODE[4]
+                                                              0.132         
+SM[22].u_sm/u_core/SUBP[2].u_tc/ROW[1].f7_reg/C
+                               SM[22].u_sm/u_core/SUBP[2].u_tc/ROW[1].COL[6].u_mac/p_r_reg/OPMODE[4]
+                                                              0.132         
+SM[15].u_sm/u_core/SUBP[2].u_tc/ROW[1].f7_reg/C
+                               SM[15].u_sm/u_core/SUBP[2].u_tc/ROW[1].COL[0].u_mac/p_r_reg/OPMODE[4]
+                                                              0.132         
+SM[7].u_sm/u_core/SUBP[0].u_tc/ROW[0].f7_reg/C
+                               SM[7].u_sm/u_core/SUBP[0].u_tc/ROW[0].COL[4].u_mac/p_r_reg/OPMODE[4]
+                                                              0.132         
+SM[16].u_sm/u_core/SUBP[2].u_tc/ROW[1].f7_reg/C
+                               SM[16].u_sm/u_core/SUBP[2].u_tc/ROW[1].COL[2].u_mac/p_r_reg/OPMODE[4]
+                                                              0.132         
+SM[22].u_sm/u_core/SUBP[2].u_tc/ROW[0].f7_reg/C
+                               SM[22].u_sm/u_core/SUBP[2].u_tc/ROW[0].COL[0].u_mac/p_r_reg/OPMODE[4]
+                                                              0.133         
+SM[15].u_sm/u_core/SUBP[1].u_tc/ROW[0].f7_reg/C
+                               SM[15].u_sm/u_core/SUBP[1].u_tc/ROW[0].COL[5].u_mac/p_r_reg/OPMODE[4]
+                                                              0.133         
+SM[9].u_sm/u_core/SUBP[3].u_tc/ROW[1].f7_reg/C
+                               SM[9].u_sm/u_core/SUBP[3].u_tc/ROW[1].COL[0].u_mac/p_r_reg/OPMODE[4]
+                                                              0.133         
+SM[7].u_sm/u_core/SUBP[2].u_tc/ROW[0].f7_reg/C
+                               SM[7].u_sm/u_core/SUBP[2].u_tc/ROW[0].COL[1].u_mac/p_r_reg/OPMODE[4]
+                                                              0.133         
+SM[16].u_sm/u_core/SUBP[1].u_tc/ROW[0].f7_reg/C
+                               SM[16].u_sm/u_core/SUBP[1].u_tc/ROW[0].COL[5].u_mac/p_r_reg/OPMODE[4]
+                                                              0.133         
+SM[18].u_sm/u_core/SUBP[1].u_tc/ROW[1].f7_reg/C
+                               SM[18].u_sm/u_core/SUBP[1].u_tc/ROW[1].COL[7].u_mac/p_r_reg/OPMODE[4]
+                                                              0.134         
+SM[17].u_sm/u_core/SUBP[1].u_tc/ROW[1].f7_reg/C
+                               SM[17].u_sm/u_core/SUBP[1].u_tc/ROW[1].COL[5].u_mac/p_r_reg/OPMODE[4]
+                                                              0.134         
+SM[16].u_sm/u_core/SUBP[2].u_tc/ROW[0].f7_reg_replica/C
+                               SM[16].u_sm/u_core/SUBP[2].u_tc/ROW[0].COL[1].u_mac/p_r_reg/OPMODE[4]
+                                                              0.134         
+SM[20].u_sm/u_core/SUBP[0].u_tc/ROW[1].f7_reg/C
+                               SM[20].u_sm/u_core/SUBP[0].u_tc/ROW[1].COL[4].u_mac/p_r_reg/OPMODE[4]
+                                                              0.134         
+SM[23].u_sm/u_core/SUBP[1].u_tc/ROW[0].f7_reg/C
+                               SM[23].u_sm/u_core/SUBP[1].u_tc/ROW[0].COL[4].u_mac/p_r_reg/OPMODE[4]
+                                                              0.134         
+SM[11].u_sm/u_core/SUBP[0].u_tc/ROW[1].f7_reg/C
+                               SM[11].u_sm/u_core/SUBP[0].u_tc/ROW[1].COL[1].u_mac/p_r_reg/OPMODE[4]
+                                                              0.134         
+SM[10].u_sm/u_core/SUBP[0].u_tc/ROW[0].f7_reg/C
+                               SM[10].u_sm/u_core/SUBP[0].u_tc/ROW[0].COL[3].u_mac/p_r_reg/OPMODE[4]
+                                                              0.134         
+SM[23].u_sm/u_core/SUBP[3].u_tc/ROW[1].f7_reg/C
+                               SM[23].u_sm/u_core/SUBP[3].u_tc/ROW[1].COL[0].u_mac/p_r_reg/OPMODE[4]
+                                                              0.135         
+SM[20].u_sm/u_core/SUBP[3].u_tc/ROW[1].f7_reg/C
+                               SM[20].u_sm/u_core/SUBP[3].u_tc/ROW[1].COL[4].u_mac/p_r_reg/OPMODE[4]
+                                                              0.135         
+SM[20].u_sm/u_core/SUBP[3].u_tc/ROW[1].f7_reg/C
+                               SM[20].u_sm/u_core/SUBP[3].u_tc/ROW[1].COL[7].u_mac/p_r_reg/OPMODE[4]
+                                                              0.135         
+SM[19].u_sm/u_core/SUBP[3].u_tc/ROW[1].f7_reg/C
+                               SM[19].u_sm/u_core/SUBP[3].u_tc/ROW[1].COL[6].u_mac/p_r_reg/OPMODE[4]
+                                                              0.135         
+SM[23].u_sm/u_core/SUBP[0].u_tc/ROW[1].f7_reg/C
+                               SM[23].u_sm/u_core/SUBP[0].u_tc/ROW[1].COL[1].u_mac/p_r_reg/OPMODE[4]
+                                                              0.135         
+SM[20].u_sm/u_core/SUBP[3].u_tc/ROW[0].f7_reg/C
+                               SM[20].u_sm/u_core/SUBP[3].u_tc/ROW[0].COL[7].u_mac/p_r_reg/OPMODE[4]
+                                                              0.135         
+SM[2].u_sm/u_core/SUBP[3].u_tc/ROW[1].f7_reg/C
+                               SM[2].u_sm/u_core/SUBP[3].u_tc/ROW[1].COL[4].u_mac/p_r_reg/OPMODE[4]
+                                                              0.135         
+SM[20].u_sm/u_core/SUBP[3].u_tc/ROW[0].f7_reg/C
+                               SM[20].u_sm/u_core/SUBP[3].u_tc/ROW[0].COL[0].u_mac/p_r_reg/OPMODE[4]
+                                                              0.136         
+SM[23].u_sm/u_core/SUBP[2].u_tc/ROW[1].f7_reg/C
+                               SM[23].u_sm/u_core/SUBP[2].u_tc/ROW[1].COL[2].u_mac/p_r_reg/OPMODE[4]
+                                                              0.136         
+SM[18].u_sm/u_core/SUBP[3].u_tc/ROW[1].f7_reg/C
+                               SM[18].u_sm/u_core/SUBP[3].u_tc/ROW[1].COL[1].u_mac/p_r_reg/OPMODE[4]
+                                                              0.136         
+SM[6].u_sm/u_core/SUBP[3].u_tc/ROW[1].f7_reg/C
+                               SM[6].u_sm/u_core/SUBP[3].u_tc/ROW[1].COL[1].u_mac/p_r_reg/OPMODE[4]
+                                                              0.136         
+SM[15].u_sm/u_core/SUBP[3].u_tc/ROW[1].f7_reg/C
+                               SM[15].u_sm/u_core/SUBP[3].u_tc/ROW[1].COL[6].u_mac/p_r_reg/OPMODE[4]
+                                                              0.136         
+SM[9].u_sm/u_core/SUBP[1].u_tc/ROW[0].f7_reg/C
+                               SM[9].u_sm/u_core/SUBP[1].u_tc/ROW[0].COL[0].u_mac/p_r_reg/OPMODE[4]
+                                                              0.136         
+SM[8].u_sm/u_core/SUBP[3].u_tc/ROW[0].f7_reg/C
+                               SM[8].u_sm/u_core/SUBP[3].u_tc/ROW[0].COL[1].u_mac/p_r_reg/OPMODE[4]
+                                                              0.136         
+SM[15].u_sm/u_core/SUBP[2].u_tc/ROW[1].f7_reg/C
+                               SM[15].u_sm/u_core/SUBP[2].u_tc/ROW[1].COL[7].u_mac/p_r_reg/OPMODE[4]
+                                                              0.136         
+SM[0].u_sm/u_core/SUBP[0].u_tc/ROW[0].f7_reg/C
+                               SM[0].u_sm/u_core/SUBP[0].u_tc/ROW[0].COL[7].u_mac/p_r_reg/OPMODE[4]
+                                                              0.136         
+SM[22].u_sm/u_core/SUBP[0].u_tc/ROW[1].f7_reg_replica/C
+                               SM[22].u_sm/u_core/SUBP[0].u_tc/ROW[1].COL[6].u_mac/p_r_reg/OPMODE[4]
+                                                              0.136         
+SM[15].u_sm/u_core/SUBP[2].u_tc/ROW[0].f7_reg_replica/C
+                               SM[15].u_sm/u_core/SUBP[2].u_tc/ROW[0].COL[6].u_mac/p_r_reg/OPMODE[4]
+                                                              0.136         
+SM[19].u_sm/u_core/SUBP[3].u_tc/ROW[1].f7_reg/C
+                               SM[19].u_sm/u_core/SUBP[3].u_tc/ROW[1].COL[0].u_mac/p_r_reg/OPMODE[4]
+                                                              0.136         
+SM[14].u_sm/u_core/SUBP[1].u_tc/ROW[0].f7_reg/C
+                               SM[14].u_sm/u_core/SUBP[1].u_tc/ROW[0].COL[5].u_mac/p_r_reg/OPMODE[4]
+                                                              0.136         
+
+
+
